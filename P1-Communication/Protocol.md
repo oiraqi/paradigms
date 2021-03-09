@@ -7,9 +7,9 @@ If the client wants to download a file, then the header will be as the following
 
 Upon receiving this header, the server searches for the specified file.
 - If the file is not found, then the server shall reply with a header as the following:\
--- NOT[one space]FOUND[Line Feed]
+  - NOT[one space]FOUND[Line Feed]
 - If the file is found, then the server shall reply with a header as the following:\
--- OK[one space][file size][Line Feed]
+  - OK[one space][file size][Line Feed]
 		
 ## Upload
 If the client wants to upload a file, then the header will be as the following:\
