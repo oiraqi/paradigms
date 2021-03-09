@@ -1,4 +1,4 @@
-- To generate the CalculatorService WSDL from ma.aui.sse.csc3374.rpc.provider.Calculator class:
+- To generate the CalculatorService WSDL, as well as skeleton code, from ma.aui.sse.csc3374.rpc.provider.Calculator class:
   - **wsgen -wsdl -cp build/classes/java/main/ -s src/main/java/ -r src/main/resources/ ma.aui.sse.csc3374.rpc.provider.Calculator**
-- To generate the Java stub from CalculatorService.wsdl:
+- To generate the Java stub code from CalculatorService.wsdl:
   - **wsimport -p ma.aui.sse.csc3374.rpc.consumer.stub -d build/classes/java/main/ src/main/resources/CalculatorService.wsdl**
