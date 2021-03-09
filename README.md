@@ -25,7 +25,7 @@ Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
 | P4 | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js |
 | P5 | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark |
 
-## Toold
+## Tools
 Develop | Build | Run | Collaborate |
 | :---: | :---: | :---: | :---: |
 | VS Code | Gradle | Docker | Git |
