@@ -16,4 +16,6 @@ This repository enables learners to achieve the ability to:
 4. Master functional and reactive programming
 5. Master distributed and parallelized programming
 
-Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes
+Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
+Part I | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
+
