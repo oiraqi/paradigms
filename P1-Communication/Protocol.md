@@ -1,5 +1,5 @@
 # Protocol
-The client opens a connection with the server and *informs* the server whether it wants to *download* or *upload* a file using a header:
+The client opens a connection with the server and *informs* the server whether it wants to *download* or *upload* a file using a *header*.
 
 ## Download
 If the client wants to download a file, then the header will be as the following:
