@@ -1,4 +1,4 @@
-# Protocol
+# FX Protocol
 The client opens a connection with the server and *informs* the server whether it wants to *download* or *upload* a file using a *header*.
 
 ## Download
