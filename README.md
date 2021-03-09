@@ -16,10 +16,16 @@ This repository enables learners to achieve the ability to:
 4. Master functional and reactive programming
 5. Master distributed and parallelized programming
 
+## Content
 Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
 | --- | --- | --- | --- |
-P1 | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
-P2 | RPC, HTTP/REST, data exchange formats (focus on JSON) | Java, Python | JAX-WS, JAX-RS, Axis2/CXF, Flask
-P3 | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScript |Thread/Runnable, Fetch API, Node.js
-P4 | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js
-P5 | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark
+| P1 | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
+| P2 | RPC, HTTP/REST, data exchange formats (focus on JSON) | Java, Python | JAX-WS, JAX-RS, Axis2/CXF, Flask |
+| P3 | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScrip |Thread/Runnable, Fetch API, Node.js |
+| P4 | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js |
+| P5 | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark |
+
+## Toold
+Develop | Build | Run | Collaborate |
+| :---: | :---: | :---: | :---: |
+| VS Code | Gradle | Docker | Git |
