@@ -6,17 +6,23 @@
       <xsd:import namespace="http://provider.rpc.csc3374.sse.aui.ma/" schemaLocation="CalculatorService_schema1.xsd"/>
     </xsd:schema>
   </types>
+  <message name="multiply">
+    <part name="parameters" element="tns:multiply"/>
+  </message>
+  <message name="multiplyResponse">
+    <part name="parameters" element="tns:multiplyResponse"/>
+  </message>
   <message name="subtract">
     <part name="parameters" element="tns:subtract"/>
   </message>
   <message name="subtractResponse">
     <part name="parameters" element="tns:subtractResponse"/>
   </message>
-  <message name="multiply">
-    <part name="parameters" element="tns:multiply"/>
+  <message name="computeAll">
+    <part name="parameters" element="tns:computeAll"/>
   </message>
-  <message name="multiplyResponse">
-    <part name="parameters" element="tns:multiplyResponse"/>
+  <message name="computeAllResponse">
+    <part name="parameters" element="tns:computeAllResponse"/>
   </message>
   <message name="add">
     <part name="parameters" element="tns:add"/>
@@ -31,13 +37,17 @@
     <part name="parameters" element="tns:divideResponse"/>
   </message>
   <portType name="Calculator">
+    <operation name="multiply">
+      <input wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/multiplyRequest" message="tns:multiply"/>
+      <output wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/multiplyResponse" message="tns:multiplyResponse"/>
+    </operation>
     <operation name="subtract">
       <input wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/subtractRequest" message="tns:subtract"/>
       <output wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/subtractResponse" message="tns:subtractResponse"/>
     </operation>
-    <operation name="multiply">
-      <input wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/multiplyRequest" message="tns:multiply"/>
-      <output wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/multiplyResponse" message="tns:multiplyResponse"/>
+    <operation name="computeAll">
+      <input wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/computeAllRequest" message="tns:computeAll"/>
+      <output wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/computeAllResponse" message="tns:computeAllResponse"/>
     </operation>
     <operation name="add">
       <input wsam:Action="http://provider.rpc.csc3374.sse.aui.ma/Calculator/addRequest" message="tns:add"/>
@@ -50,6 +60,15 @@
   </portType>
   <binding name="CalculatorPortBinding" type="tns:Calculator">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <operation name="multiply">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
     <operation name="subtract">
       <soap:operation soapAction=""/>
       <input>
@@ -59,7 +78,7 @@
         <soap:body use="literal"/>
       </output>
     </operation>
-    <operation name="multiply">
+    <operation name="computeAll">
       <soap:operation soapAction=""/>
       <input>
         <soap:body use="literal"/>

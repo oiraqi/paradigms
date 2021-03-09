@@ -5,6 +5,10 @@
 
   <xs:element name="addResponse" type="tns:addResponse"/>
 
+  <xs:element name="computeAll" type="tns:computeAll"/>
+
+  <xs:element name="computeAllResponse" type="tns:computeAllResponse"/>
+
   <xs:element name="divide" type="tns:divide"/>
 
   <xs:element name="divideResponse" type="tns:divideResponse"/>
@@ -53,6 +57,28 @@
   <xs:complexType name="multiplyResponse">
     <xs:sequence>
       <xs:element name="return" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="computeAll">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double"/>
+      <xs:element name="arg1" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="computeAllResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:result" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="result">
+    <xs:sequence>
+      <xs:element name="difference" type="xs:double"/>
+      <xs:element name="product" type="xs:double"/>
+      <xs:element name="ratio" type="xs:double"/>
+      <xs:element name="sum" type="xs:double"/>
     </xs:sequence>
   </xs:complexType>
 

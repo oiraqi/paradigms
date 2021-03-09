@@ -29,6 +29,11 @@ public class Calculator {
         return result;
     }
 
+    public Result computeAll(double x, double y) {
+        System.out.println("computeAll method invoked: computing " + x + " +-x: " + y);
+        return new Result(x + y, x - y, x * y, x / y);
+    }
+
     private void log(double x, double y, double result, String method, String operator) {
         System.out.println(method + " method invoked: computing " + x + " " + operator + " " + y + " -> " + result);
     }

@@ -30,5 +30,10 @@ public class Consumer {
         result = calculator.divide(x, y);
         System.out.println(x + " : " + y + " = " + result);
 
+        Result res = calculator.computeAll(x, y);
+        System.out.println("Sum: " + res.getSum());
+        System.out.println("Difference: " + res.getDifference());
+        System.out.println("Product: " + res.getProduct());
+        System.out.println("Ratio: " + res.getRatio());
     }
 }
