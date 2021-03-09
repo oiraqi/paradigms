@@ -1,7 +1,7 @@
 # Programming Paradigms
 This repository provides theoritical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses (including OOP) and other prerequisite courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
-- **P1. Programming for communication:** Client/server model and programming
-- **P2. Programming for integration:** Service-oriented model and programming
+- [**P1. Programming for communication:** Client/server model and programming](https://github.com/oiraqi/paradigms/tree/main/P1-Communication)
+- [**P2. Programming for integration:** Service-oriented model and programming](https://github.com/oiraqi/paradigms/tree/main/P2-Integration)
 - **P3. Programming for performance:** Multithreaded and asynchronous programming
 - **P4. Programming for extensibility:** Functional and reactive programming
 - **P5. Programming for scalability:** Distributed and parallelized programming
