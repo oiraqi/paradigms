@@ -1,10 +1,10 @@
 # Programming Paradigms
 This repository provides theoritical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses (including OOP) and other prerequisite courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
-- **Part I. Programming for communication:** Client/server model and programming
-- **Part II. Programming for integration:** Service-oriented model and programming
-- **Part III. Programming for performance:** Multithreaded and asynchronous programming
-- **Part IV. Programming for extensibility:** Functional and reactive programming
-- **Part V. Programming for scalability:** Distributed and parallelized programming
+- **P1. Programming for communication:** Client/server model and programming
+- **P2. Programming for integration:** Service-oriented model and programming
+- **P3. Programming for performance:** Multithreaded and asynchronous programming
+- **P4. Programming for extensibility:** Functional and reactive programming
+- **P5. Programming for scalability:** Distributed and parallelized programming
 
 This repository adopts the 3 most popular programming languages: Python, JavaScript and Java. It uses each time the most suitable language(s) to support and illustrate the concepts covered in each part.
 
@@ -18,8 +18,8 @@ This repository enables learners to achieve the ability to:
 
 Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
 | --- | --- | --- | --- |
-Part I | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
-Part II | RPC, HTTP/REST, data exchange formats (focus on JSON) | Java, Python | JAX-WS, JAX-RS, Axis2/CXF, Flask
-Part III | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScript |Thread/Runnable, Fetch API, Node.js
-Part IV | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js
-Part V | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark
+P1 | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
+P2 | RPC, HTTP/REST, data exchange formats (focus on JSON) | Java, Python | JAX-WS, JAX-RS, Axis2/CXF, Flask
+P3 | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScript |Thread/Runnable, Fetch API, Node.js
+P4 | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js
+P5 | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark
