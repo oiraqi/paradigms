@@ -7,3 +7,11 @@ This repository provides theoritical knowledge about, and practical skills in ad
 - **Part V. Programming for scalability:** Distributed and parallelized programming
 
 This course adopts the 3 most popular programming languages: Python, JavaScript and Java. It uses each time the most suitable language(s) to support and illustrate the concepts covered in each part.
+
+## Intended Learning Outcomes
+This course enables students to achieve, by the end of the semester, the ability to:
+1. Master the client/server model and programming
+2. Master the service oriented model and programming
+3. Master multithreaded and asynchronous programming
+4. Master functional and reactive programming
+5. Master distributed and parallelized programming
