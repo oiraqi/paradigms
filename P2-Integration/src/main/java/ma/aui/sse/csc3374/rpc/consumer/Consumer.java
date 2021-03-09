@@ -16,7 +16,8 @@ public class Consumer {
         double x = 7.0, y = 5.0, result;
 
         // Remote calls (as if they were local!)
-        // No protocol, no hassle! All is hidden behind the scenes
+        // No sockets, no protocol, no hassle!
+        // All is hidden behind the scenes
         result = calculator.add(x, y);
         System.out.println(x + " + " + y + " = " + result);
 
