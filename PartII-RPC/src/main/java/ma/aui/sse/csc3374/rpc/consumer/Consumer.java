@@ -7,14 +7,27 @@ public class Consumer {
     public static void main(String[] args) {
 
         CalculatorService service = new CalculatorService();
+
+        // calculator is just a proxy, a stub object -- No business implementation
+        // It's a fake object giving the impression and luxury to the the consuler
+        // that it's using the remote business (real) implementation as if it were local
         Calculator calculator = service.getCalculatorPort();
 
-        double x = 7.0, y = 5.0;
+        double x = 7.0, y = 5.0, result;
 
-        System.out.println(x + " + " + y + " = " + calculator.add(x, y));
-        System.out.println(x + " - " + y + " = " + calculator.subtract(x, y));
-        System.out.println(x + " x " + y + " = " + calculator.multiply(x, y));
-        System.out.println(x + " : " + y + " = " + calculator.divide(x, y));
+        // Remote calls (as if they were local!)
+        // No protocol, no hassle! All is hidden behind the scenes
+        result = calculator.add(x, y);
+        System.out.println(x + " + " + y + " = " + result);
+
+        result = calculator.subtract(x, y);
+        System.out.println(x + " - " + y + " = " + result);
+
+        result = calculator.multiply(x, y);
+        System.out.println(x + " x " + y + " = " + result);
+
+        result = calculator.divide(x, y);
+        System.out.println(x + " : " + y + " = " + result);
 
     }
 }
