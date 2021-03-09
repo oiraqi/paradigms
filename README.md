@@ -1,5 +1,5 @@
 # Programming Paradigms
-This repository provides theoritical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses and other prerequisite courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
+This repository provides theoritical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses (including OOP) and other prerequisite courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
 - **Part I. Programming for communication:** Client/server model and programming
 - **Part II. Programming for integration:** Service-oriented model and programming
 - **Part III. Programming for performance:** Multithreaded and asynchronous programming
