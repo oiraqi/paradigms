@@ -19,4 +19,7 @@ This repository enables learners to achieve the ability to:
 Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
 | --- | --- | --- | --- |
 Part I | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
-
+Part II | RPC, HTTP/REST, data exchange formats (focus on JSON) | Java, Python | JAX-WS, JAX-RS, Axis2/CXF, Flask
+Part III | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScript |Thread/Runnable, Fetch API, Node.js
+Part IV | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js
+Part V | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark
