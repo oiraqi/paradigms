@@ -25,9 +25,3 @@ soap.createClient(url, (err, calculator) => {
     });
 
 });
-
-/*soap.createClientAsync(url).then((calculator) => {
-    return calculator.multiply(args);
-}).then((result) => {
-    console.log(result);
-});*/
