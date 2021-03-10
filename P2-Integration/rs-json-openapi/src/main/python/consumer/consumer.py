@@ -1,4 +1,4 @@
-from swagger_client.api.calculator_api import CalculatorApi
+from swagger_client import CalculatorApi
 
 calculator = CalculatorApi()
 x, y = 7.0, 5.0
