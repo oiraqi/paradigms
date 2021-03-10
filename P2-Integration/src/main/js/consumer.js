@@ -1,27 +1,29 @@
 let soap = require('soap');
 let url = '../resources/CalculatorService.wsdl';
-let args = { args0: 7.0, args1: 5.0 };
+let args = { arg0: 7.0, arg1: 5.0 };
 
-soap.createClient(url, function(err, calculator) {
-    calculator.add(args, function(er, result) {
-        console.log(result);
+soap.createClient(url, (err, calculator) => {
+    
+    calculator.add(args, (er, result) => {
+        console.log(args.arg0 + ' + ' + args.arg1 + ' = ' + result.return);
     });
 
-    calculator.subtract(args, function(er, result) {
-        console.log(result);
+    calculator.subtract(args, (er, result) => {
+        console.log(args.arg0 + ' - ' + args.arg1 + ' = ' + result.return);
     });
 
-    calculator.multiply(args, function(er, result) {
-        console.log(result);
+    calculator.multiply(args, (er, result) => {
+        console.log(args.arg0 + ' x ' + args.arg1 + ' = ' + result.return);
     });
 
-    calculator.divide(args, function(er, result) {
-        console.log(result);
+    calculator.divide(args, (er, result) => {
+        console.log(args.arg0 + ' : ' + args.arg1 + ' = ' + result.return);
     });
 
-    calculator.computeAll(args, function(er, result) {
-        console.log(result);
+    calculator.computeAll(args, (er, result) => {
+        console.log(result.return);
     });
+
 });
 
 /*soap.createClientAsync(url).then((calculator) => {
