@@ -6,7 +6,7 @@
   - **./gradlew build**
 - Generate the CalculatorService WSDL, as well as skeleton code, from ma.aui.sse.csc3374.rpc.provider.Calculator class:
   - **wsgen -wsdl -cp build/classes/java/main/ -d build/classes/java/main/ -r src/main/resources/ ma.aui.sse.csc3374.rpc.provider.Calculator**
-  - Change the service location url within the generated src/main/resources/CalculatorService.wsdl (<soap:address location="REPLACE_WITH_ACTUAL_URL"/>) to: http://localhost:9000/calculator
+- Change the service location url within the generated src/main/resources/CalculatorService.wsdl (<soap:address location="REPLACE_WITH_ACTUAL_URL"/>) to: http://localhost:9000/calculator
 
 ## Generate Java Consumer stub code
 Generate the Java stub code from CalculatorService.wsdl:
