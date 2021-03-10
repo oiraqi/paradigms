@@ -1,4 +1,4 @@
-package ma.aui.sse.csc3374.rpc.provider;
+package ma.aui.sse.paradigms.integration.rs.provider;
 
 public class Result {
 
@@ -47,5 +47,5 @@ public class Result {
     public void setRatio(double ratio) {
         this.ratio = ratio;
     }
-
+    
 }

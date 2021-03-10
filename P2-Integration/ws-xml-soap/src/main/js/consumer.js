@@ -1,5 +1,5 @@
 let soap = require('soap');
-let url = '../resources/CalculatorService.wsdl';
+let url = 'src/main/resources/CalculatorService.wsdl';
 let args = { arg0: 7.0, arg1: 5.0 };
 
 soap.createClient(url, (err, calculator) => {

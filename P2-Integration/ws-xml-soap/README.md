@@ -26,10 +26,8 @@
 
 ## Run the Python Consumer
 - pip install zeep
-- Get to src/main/python
-- python consumer.py
+- python src/main/python/consumer.py
 
 ## Run the JS Consumer
 - npm install soap
-- Get to src/main/js
-- node consumer.js
+- node src/main/js/consumer.js
