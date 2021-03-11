@@ -54,6 +54,17 @@ This is the party that provides the business implementation of the service API. 
 ## Runtime Flow
 <p align="center"><img src="figures/runtime-flow.png"><br/>Figure 2. RPC Runtime Flow</p>
 
+## Development Process
+There are two main approaches: API-first and Code-first. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
+### API-first Approach
+As its name implies, this approach consits of designing the service API/contract first. Then, server-side code, as well as client-side code are created. From a design perspective, it's always a good practice to specify the API/contract before delving into the implementation.
+<p align="center"><img src="figures/dev-process-api-first.png"><br/>Figure 3. API-first Approach</p>
+However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
+
+### Code-first Approach
+In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
+<p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 4. Code-first Approach</p>
+
 ## Technologies
 ### Programming Language-Specific Technologies
 In the traditional client/server model, the programming language of the client and the one of the server are not relevant to the interaction. What really matters is the protocol and how the exchanged messages are compliant with the protocol.
@@ -69,19 +80,10 @@ Humans always want more, right? Software developers wanted to overcome the langu
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
+- [Case Study](./ws-xml-soap)
 #### Restful (RS) Web Services
 - Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations, so suitable for data-oriented applications
 - Service definition language: unspecified, but some popular languages have emerged:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
-
-## Development Process
-There are two main approaches: API-first and Code-first. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
-### API-first Approach
-As its name implies, this approach consits of designing the service API/contract first. Then, server-side code, as well as client-side code are created. From a design perspective, it's always a good practice to specify the API/contract before delving into the implementation.
-<p align="center"><img src="figures/dev-process-api-first.png"><br/>Figure 3. API-first Approach</p>
-However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
-
-### Code-first Approach
-In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
-<p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 4. Code-first Approach</p>
+  - [Case Study](./rs-json-openapi)
