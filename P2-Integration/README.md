@@ -32,21 +32,26 @@ If you were to design and develop a traditional client/server application that a
 ## Solution: RPC Paradigm -- Remote Procedure Call
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
-### Key Concepts
-- **Service API:** This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
-- **Service consumer:** This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
-  - **Client stub or proxy:** implements the service API, but this is just a proxy/fake implementation, which gives the impression to the service consumer that it's invoking the remore business implementation as if it were local. It prvides:
-    - **parameter marshalling:** serializing and packing parameters from their in-memory representation into a *structured* stream of bytes that is suitable for transport and from which parameters can be rebuilt (unmarshalled) by the server stub on the other side
-    - **result unmarshalling:** unpacking and deserializing the result from the stream of bytes sent ny the server stub into its in-memory representation
-- **Service provider:** This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
-  - **Server stub or skeleton:** uses/wrapps the service business implementaion, while providing:
-    - **parameter unmarshalling:** unpacking and deserializing the parameters from the stream of bytes sent by the client stub into their in-memory representation
-    - **result marshalling:** serializing the result from its in-memory representation into a *structured* stream of bytes that is suitable for transport and from which the result can be rebuilt (unmarshalled) by the client stub on the other side
+### Service API
+This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
+
+### Service consumer
+This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
+- **Client stub or proxy:** implements the service API, but this is just a proxy/fake implementation, which gives the impression to the service consumer that it's invoking the remore business implementation as if it were local. It prvides:
+  - **parameter marshalling:** serializing and packing parameters from their in-memory representation into a *structured* stream of bytes that is suitable for transport and from which parameters can be rebuilt (unmarshalled) by the server stub on the other side
+  - **result unmarshalling:** unpacking and deserializing the result from the stream of bytes sent ny the server stub into its in-memory representation
+
+### Service provider
+This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
+- **Server stub or skeleton:** uses/wrapps the service business implementaion, while providing:
+  - **parameter unmarshalling:** unpacking and deserializing the parameters from the stream of bytes sent by the client stub into their in-memory representation
+  - **result marshalling:** serializing the result from its in-memory representation into a *structured* stream of bytes that is suitable for transport and from which the result can be rebuilt (unmarshalled) by the client stub on the other side
 
 ## History
 See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
 
 ## Runtime Flow
+<p align="center"><img src="figures/runtime-flow.png"><br/>Figure 2. RPC Runtime Flow</p
 
 ## Technologies
 ### Programming Language-Specific Technologies
@@ -73,9 +78,9 @@ Humans always want more, right? Software developers wanted to overcome the langu
 There are two main approaches: API-first and Code-first. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
 ### API-first Approach
 As its name implies, this approach consits of designing the service API/contract first. Then, server-side code, as well as client-side code are created. From a design perspective, it's always a good practice to specify the API/contract before delving into the implementation.
-<p align="center"><img src="figures/dev-process-api-first.png"><br/>Figure 2. API-first Approach</p>
+<p align="center"><img src="figures/dev-process-api-first.png"><br/>Figure 3. API-first Approach</p>
 However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
 
 ### Code-first Approach
 In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
-<p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 3. Code-first Approach</p>
+<p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 4. Code-first Approach</p>
