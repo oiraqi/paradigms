@@ -17,7 +17,7 @@ Such a paradigm would by hide all the programming hassle and details mentioned a
   - higher performance
 
 ## Examples
-- Getting the weather of a given city from specialized providers (Yahoo!, BBC, ...) --> Richer functionality: you don't have data to do it yourself!
+- Getting the weather of a given city from specialized providers, such as Yahoo! Weather --> Richer functionality: you don't have the necessary data to do it yourself!
 - Translating text using a specialized service, such as Google Translate --> Richer functionality: you don't have the algorithms and data to do it yourself!
 - Inversing large matrices using a specialized service --> Higher performance: you may not have the necessary processing power!
 
