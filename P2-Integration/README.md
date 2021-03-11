@@ -55,6 +55,7 @@ This is the party that provides the business implementation of the service API. 
 <p align="center"><img src="figures/runtime-flow.png"><br/>Figure 2. RPC Runtime Flow</p
 
 ## Technologies
+
 ### Programming Language-Specific Technologies
 In the traditional client/server model, the programming language of the client and the one of the server are not relevant to the interaction. What really matters is the protocol and how the exchanged messages are compliant with the protocol.
 
