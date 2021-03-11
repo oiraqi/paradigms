@@ -30,17 +30,19 @@ If you were to design and develop a traditional client/server application that a
 - What parts of your solution could be generalized and used for other purposes and applications?
 
 ## Architecture
-<p align="center"><img src="figures/architecture.png"></p>
+<p align="center"><img src="figures/architecture.png"><br/>Figure 1. Architecture</p>
 
 ## Runtime Flow
 
 ## Technologies
+### Programming Language-Specific Technologies
+### Cross Programming Languages Technologies
 
 ## Development Process
 There are two main approaches: API-First and Code-First. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
 ### API-First Approach
 As its name implies, this approach consits of designing the service API/contract first. Then, server-side code, as well as client-side code are created. From a design perspective, it's always a good practice to specify the API/contract before delving into the implementation.
-<p align="center"><img src="figures/dev-process-api-first.png"></p>
+<p align="center"><img src="figures/dev-process-api-first.png"><br/>Figure 2. API-First Approach</p>
 However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
 
 ### Code-First Approach
