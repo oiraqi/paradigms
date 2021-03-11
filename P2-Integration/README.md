@@ -43,6 +43,6 @@ As its name implies, this approach consits of designing the service API/contract
 
 However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
 ### Code-First Approach
-In this approach, developers start by coding the business implementation, or at least defining the business interface in a target programming language, such as Java, Python, JavScript, etc. Then, they use an appropriate tool for the chosen technology (if any) to generate the service API.
+In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
 
 Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
