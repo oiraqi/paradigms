@@ -34,9 +34,12 @@ If you were to design and develop a traditional client/server application that a
 
 ## Runtime Flow
 
-## Development Process
-There are two main approaches: API-First approach and Code-First approach
-### API-First
-### Code-First
-
 ## Technologies
+
+## Development Process
+There are two main approaches: API-First and Code-First:
+### API-First Approach
+As its name implies, this approach consits of designing the service API/contract first. Then, server-side and client-side code is created. From a design perspective, it's always a good practice to design the API/contract before delving into the implementation.
+### Code-First Approach
+
+Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
