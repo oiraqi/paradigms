@@ -17,9 +17,9 @@ Such a paradigm would by hide all the programming hassle and details mentioned a
   - higher performance
 
 ## Examples
-- Getting the weather of a given city from a specialized provider, such as Yahoo! Weather (Richer functionality): you don't have the necessary data to do it yourself!
-- Translating text using a specialized service, such as Google Translate (Richer functionality): you don't have the algorithms and data to do it yourself!
-- Inversing large matrices using a specialized service (Higher performance): you may not have the necessary processing power!
+- Getting the weather of a given city from a specialized provider, such as Yahoo! Weather (functionality): you don't have the necessary data to do it yourself!
+- Translating text using a specialized service, such as Google Translate (functionality): you don't have the algorithms and data to do it yourself!
+- Inversing large matrices using a specialized service (performance): you may not have the necessary processing power!
 
 ## Brainstorming
 If you were to design and develop a traditional client/server application that allows the client to perform 
