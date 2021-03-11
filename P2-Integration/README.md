@@ -32,6 +32,12 @@ If you were to design and develop a traditional client/server application that a
 ## Solution: RPC Paradigm -- Remote Procedure Call
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
+### Key Concepts
+- Parameter marshalling
+- Parameter unmarshalling
+- Result marshalling
+- Result unmarshalling
+
 ## History
 See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
 
