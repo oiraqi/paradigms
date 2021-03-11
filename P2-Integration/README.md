@@ -37,7 +37,7 @@ If you were to design and develop a traditional client/server application that a
 - Service provider
 - Service consumer
 - Client stub or proxy
-- Server stud or skeleton
+- Server stub or skeleton
 - Parameter marshalling
 - Parameter unmarshalling
 - Result marshalling
