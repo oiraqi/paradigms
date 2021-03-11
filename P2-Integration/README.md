@@ -33,12 +33,12 @@ If you were to design and develop a traditional client/server application that a
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
 ### Key Concepts
-- Service API
-- Service provider
+- Service API: This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
+- Service provider: This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
   - Client stub or proxy
     - parameter marshalling
     - result unmarshalling
-- Service consumer
+- Service consumer: This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
   - Server stub or skeleton
     - parameter unmarshalling
     - result marshalling
