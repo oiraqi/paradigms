@@ -33,12 +33,12 @@ If you were to design and develop a traditional client/server application that a
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
 ### Key Concepts
-- Service API: This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
-- Service consumer: This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
+- **Service API:** This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
+- **Service consumer:** This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
   - Client stub or proxy: implements the service API, but this is just a proxy/fake implementation, which gives the impression to the service consumer that it's invoking the remore business implementation as if it were local
     - parameter marshalling: serializing and packing parameters from their in-memory representation into a *structured* stream of bytes that is suitable for transport and from which parameters can be rebuilt (unmarshalled) by the server stub on the other side
     - result unmarshalling: unpacking and deserializing the result from the stream of bytes sent ny the server stub into its in-memory representation
-- Service provider: This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
+- **Service provider:** This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
   - Server stub or skeleton
     - parameter unmarshalling: unpacking and deserializing the parameters from the stream of bytes sent by the client stub into their in-memory representation
     - result marshalling: serializing the result from its in-memory representation into a *structured* stream of bytes that is suitable for transport and from which the result can be rebuilt (unmarshalled) by the client stub on the other side
