@@ -82,7 +82,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 - [Case Study](./ws-xml-soap)
 #### Restful (RS) Web Services
-- Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations, so suitable for data-oriented applications
+- Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications
 - Service definition language: unspecified, but some popular languages have emerged:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
