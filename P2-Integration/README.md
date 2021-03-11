@@ -20,7 +20,8 @@ Such a paradigm would by hide all the programming hassle and details mentioned a
 - Getting the weather of a given city from a specialized provider, such as Yahoo! Weather (seeking functionality): you don't have the necessary data to do it yourself!
 - Translating text using a specialized service, such as Google Translate (seeking functionality): you don't have the algorithms and data to do it yourself!
 - Inversing large matrices using a specialized service (seeking performance): you may not have the necessary processing power!
-<p align="center">*As a matter of fact, cloud computing wouldn't have been possible without such a paradigm!*</p>
+
+*As a matter of fact, cloud computing wouldn't have been possible without such a paradigm!*
 
 ## Brainstorming
 If you were to design and develop a traditional client/server application that allows the client to perform the four basic math operations (+ - x :) on the server,
