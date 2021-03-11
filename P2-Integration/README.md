@@ -35,5 +35,8 @@ If you were to design and develop a traditional client/server application that a
 ## Runtime Flow
 
 ## Development Process
+There are two main approaches: API-First approach and Code-First approach
+### API-First
+### Code-First
 
 ## Technologies
