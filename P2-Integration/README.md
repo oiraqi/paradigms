@@ -46,8 +46,8 @@ If you were to design and develop a traditional client/server application that a
 #### Restful (RS) Web Services
 - Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations, so suitable for data-oriented applications
 - Service definition language: unspecified, but some popular languages have emerged:
-  - RAML (YAML-based)
-  - OAS -- OpenAPI Specification
+  - [RAML](https://raml.org/) (YAML-based)
+  - [OAS -- OpenAPI Specification](https://www.openapis.org/)
 
 ## Development Process
 There are two main approaches: API-first and Code-first. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
