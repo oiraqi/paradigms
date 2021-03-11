@@ -45,6 +45,7 @@ However, the luxury and abstraction provided by RPC has a cost. Invoking methods
 
 Therfore, the first attempts to provide RPC implementations were language-specific. This is [a list on Wikipedia of such attempts](https://en.wikipedia.org/wiki/Remote_procedure_call#Language-specific).
 ### Programming Language-Agnostic Technologies
+Humans always want more, right? Software developers wanted to remove the language dependency constraint. The key was creating a service (API) definition language that positions itself at the same distance from all programming languages, with the possibility to serialize objects into a unified format and deserialize them back, no matter what their original and final language-dependent representations are.
 #### CORBA (legacy) -- Common Object Request Broker Architecture
 - Protocol: IIOP -- Internet Inter-ORB Protocol
 - Service definition language: IDL -- Interface Definition Language
