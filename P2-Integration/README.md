@@ -45,4 +45,4 @@ However, it may not be an easy task to specify the contract in some interface de
 
 ### Code-First Approach
 In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
-<p align="center"><img src="figures/dev-process-code-first.png"></p>
+<p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 3. Code-First Approach</p>
