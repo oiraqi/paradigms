@@ -35,13 +35,13 @@ If you were to design and develop a traditional client/server application that a
 ### Key Concepts
 - Service API
 - Service provider
+  - Client stub or proxy
+    - parameter marshalling
+    - result unmarshalling
 - Service consumer
-- Client stub or proxy
-- Server stub or skeleton
-- Parameter marshalling
-- Parameter unmarshalling
-- Result marshalling
-- Result unmarshalling
+  - Server stub or skeleton
+    - parameter unmarshalling
+    - result marshalling
 
 ## History
 See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
