@@ -36,12 +36,12 @@ If you were to design and develop a traditional client/server application that a
 - Service API: This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
 - Service provider: This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
   - Client stub or proxy: implements the service API, but this is just a proxy/fake implementation, which gives the impression to the service consumer that it's invoking the remore business implementation as if it were local
-    - parameter marshalling
-    - result unmarshalling
+    - parameter marshalling: serializing and packing parameters from their in-memory representation into a *structured* stream of bytes that is suitable for transport and from which parameters can be rebuilt (unmarshalled) by the server stub on the other side
+    - result unmarshalling: serializing the result from its in-memory representation into a *structured* stream of bytes that is suitable for transport and from which the result can be rebuilt (unmarshalled) by the server stub on the other side
 - Service consumer: This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
   - Server stub or skeleton
-    - parameter unmarshalling
-    - result marshalling
+    - parameter unmarshalling: unpacking and deserializing the parameters from the stream of bytes into their in-memory representation
+    - result marshalling: unpacking and deserializing the result from the stream of bytes into its in-memory representation
 
 ## History
 See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
