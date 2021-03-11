@@ -37,6 +37,7 @@ If you were to design and develop a traditional client/server application that a
 ## Technologies
 ### Programming Language-Specific Technologies
 ### Cross Programming Languages Technologies
+#### Legacy: CORBA ()
 
 ## Development Process
 There are two main approaches: API-First and Code-First. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
