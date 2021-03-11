@@ -32,6 +32,10 @@ If you were to design and develop a traditional client/server application that a
 ## Solution: RPC Paradigm -- Remote Procedure Call
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
+## History
+See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
+
+## Key Concepts
 ### Service API
 This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
 
@@ -46,9 +50,6 @@ This is the party that provides the business implementation of the service API. 
 - **Server stub or skeleton:** uses/wrapps the service business implementaion, while providing:
   - **parameter unmarshalling:** unpacking and deserializing the parameters from the stream of bytes sent by the client stub into their in-memory representation
   - **result marshalling:** serializing the result from its in-memory representation into a *structured* stream of bytes that is suitable for transport and from which the result can be rebuilt (unmarshalled) by the client stub on the other side
-
-## History
-See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
 
 ## Runtime Flow
 <p align="center"><img src="figures/runtime-flow.png"><br/>Figure 2. RPC Runtime Flow</p
