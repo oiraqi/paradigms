@@ -86,4 +86,4 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: unspecified, but some popular languages have emerged:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
-  - [Case Study](./rs-json-openapi)
+- [Case Study](./rs-json-openapi)
