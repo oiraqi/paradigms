@@ -29,3 +29,9 @@ If you were to design and develop a traditional client/server application that a
 
 ## Architecture
 <p align="center"><img src="figures/architecture.png"></p>
+
+## Runtime Flow
+
+## Development Process
+
+## Technologies
