@@ -37,12 +37,11 @@ If you were to design and develop a traditional client/server application that a
 ## Technologies
 
 ## Development Process
-There are two main approaches: API-First and Code-First:
+There are two main approaches: API-First and Code-First. Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
 ### API-First Approach
 As its name implies, this approach consits of designing the service API/contract first. Then, server-side code, as well as client-side code are created. From a design perspective, it's always a good practice to specify the API/contract before delving into the implementation.
 
 However, it may not be an easy task to specify the contract in some interface definition languages, such as WSDL or RAML. In this case, some developers would prefer the code-first approach.
 ### Code-First Approach
 In this approach, developers start by coding the service business implementation, or at least defining its business interface in a target programming language, such as Java, Python, JavaScript, etc. Then, they use an appropriate tool for the chosen technology to generate the service API. This won't be possible if such a tool doesn't exist for the chosen technology and target programming language.
-
-Regardless of the approach, the server skeleton and the client stub are generated automatically from the service API/contract using the appropriate tool provided by the chosen technology.
+<p align="center"><img src="figures/dev-process-code-first.png"></p>
