@@ -35,7 +35,7 @@ If you were to design and develop a traditional client/server application that a
 ### Key Concepts
 - Service API: This is the contract between both parties: service provider and service consumer. It defines the prototypes of the methods/functions that are offered by the service provider and that can be invoked by the service consumer
 - Service provider: This is the party that provides the business implementation of the service API. It publishes such an implementation under a well known location and responds to consumer invocations
-  - Client stub or proxy
+  - Client stub or proxy: implements the service API, but this is just a proxy/fake implementation, which gives the impression to the service consumer that it's invoking the remore business implementation as if it were local
     - parameter marshalling
     - result unmarshalling
 - Service consumer: This is the party that consumes the service offered by the service provider. It needs to know nothing about the service implementation (one of the main purposes of RPC)
