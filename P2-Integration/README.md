@@ -29,15 +29,18 @@ If you were to design and develop a traditional client/server application that a
 - What parts of your solution are really specific to this application?
 - What parts of your solution could be generalized and used for other purposes and applications?
 
-## Architecture
-<p align="center"><img src="figures/architecture.png"><br/>Figure 1. Architecture</p>
+## Solution: RPC Paradigm -- Remote Procedure Call
+<p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
 ## Runtime Flow
 
 ## Technologies
 ### Programming Language-Specific Technologies
+In the traditional client/server model, the programming language of the client and the one of the server are not relevant to the interaction. What really matters is the protocol and how the exchanged messages are compliant with the protocol.
+
+However, the luxury and abstraction provided by RPC would have a cost. Invoking methods/functions remotely while passing parameters and getting results would require that both the service provider and consumer be implemented in the same programming language. Indeed, function prototypes, as well as parameters and returned results types depend on the programming language.
 ### Programming Language-Agnostic Technologies
-#### Legacy: CORBA -- Common Object Request Broker Architecture
+#### CORBA (legacy) -- Common Object Request Broker Architecture
 - Protocol: IIOP -- Internet Inter-ORB Protocol
 - Service definition language: IDL -- Interface Definition Language
 #### XML/SOAP (XS) Web Services
