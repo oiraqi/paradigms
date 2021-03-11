@@ -7,6 +7,7 @@ The client/server model allows different processes to communicate remotely. Howe
 
 Also, the more services/functionality the protocol supports, the more tedious the whole process becomes!
 ## Objective
+Can we imagine a paradigm, which provides us software developers, with the *luxury* to invoke remote services/functionality, *as if they were local*!?
 
 ## Architecture
 <p align="center"><img src="figures/architecture.png"></p>
