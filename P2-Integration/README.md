@@ -10,9 +10,11 @@ Also, the more services/functionality the protocol supports, the more tedious th
 ## Objective
 Can we imagine a programming paradigm, which provides us software developers, with: *the luxury to invoke remote services/functionality, as if they were local*!?
 
-Such a paradigm would:
-- increase devloper productivity by hiding all the programming hassle and details mentioned above, hence
-- promote software integration
+Such a paradigm would by hide all the programming hassle and details mentioned above, hence:
+- increase *devloper productivity*
+- promote *software integration* for:
+  - richer functionality
+  - higher performance
 
 ## Examples
 
