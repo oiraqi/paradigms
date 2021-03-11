@@ -33,6 +33,11 @@ If you were to design and develop a traditional client/server application that a
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
 ### Key Concepts
+- Service API
+- Service provider
+- Service consumer
+- Client stub or proxy
+- Server stud or skeleton
 - Parameter marshalling
 - Parameter unmarshalling
 - Result marshalling
