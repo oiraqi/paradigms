@@ -32,13 +32,18 @@ If you were to design and develop a traditional client/server application that a
 ## Solution: RPC Paradigm -- Remote Procedure Call
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
+## History
+See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
+
 ## Runtime Flow
 
 ## Technologies
 ### Programming Language-Specific Technologies
 In the traditional client/server model, the programming language of the client and the one of the server are not relevant to the interaction. What really matters is the protocol and how the exchanged messages are compliant with the protocol.
 
-However, the luxury and abstraction provided by RPC would have a cost. Invoking methods/functions remotely while passing parameters and getting results would require that both the service provider and consumer be implemented in the same programming language. Indeed, function prototypes, as well as parameters and returned results types depend on the programming language.
+However, the luxury and abstraction provided by RPC has a cost. Invoking methods/functions remotely while passing parameters and getting results would require (a priori) that both the service provider and consumer be implemented in the same programming language. Indeed, function prototypes, as well as parameters and returned results types depend on the programming language.
+
+Therfore, the first attempts to provide RPC implementations were language-specific. This is [a list on Wikipedia of such attempts](https://en.wikipedia.org/wiki/Remote_procedure_call#Language-specific).
 ### Programming Language-Agnostic Technologies
 #### CORBA (legacy) -- Common Object Request Broker Architecture
 - Protocol: IIOP -- Internet Inter-ORB Protocol
