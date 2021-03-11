@@ -68,7 +68,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: IDL -- Interface Definition Language
 #### XML/SOAP (XS) Web Services
 - Protocol: SOAP -- Simple Object Access Protocol (in practice, on top of HTTP, but using POST method only)
-- Service definition language: WSDL -- Web Service Definition Language (XML-based), by W3C
+- Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 #### Restful (RS) Web Services
 - Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations, so suitable for data-oriented applications
 - Service definition language: unspecified, but some popular languages have emerged:
