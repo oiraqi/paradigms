@@ -22,10 +22,10 @@ Such a paradigm would by hide all the programming hassle and details mentioned a
 - Inversing large matrices using a specialized service (performance): you may not have the necessary processing power!
 
 ## Brainstorming
-If you were to design and develop a traditional client/server application that allows the client to perform the four basic math operations on the server,
+If you were to design and develop a traditional client/server application that allows the client to perform the four basic math operations (+ - x :) on the server,
 - How would you go about it?
 - What parts of your solution are really specific to this application?
-- What parts of your solution could be generalized for, and reused in other applications and purposes?
+- What parts of your solution could be generalized and used for other purposes and applications?
 
 ## Architecture
 <p align="center"><img src="figures/architecture.png"></p>
