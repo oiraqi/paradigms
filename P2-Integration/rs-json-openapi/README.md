@@ -12,5 +12,5 @@ To initialize a Spring Boot application, you need to create a Gradle project, cu
 You will get your initialized Gradle project as a zip file. Unzip it and this will be your work/project directory.
 
 ## Generate the OpenAPI Service Description
-Here, we adopt a Jav-first approach. So, we generate the OpenAPI service description from ma.aui.sse.paradigms.integration.rs.provider.Calculator. To do so, we use Springdoc-OpenAPI library:
+Here, we adopt a Java-first approach. So, we generate the OpenAPI service description from ma.aui.sse.paradigms.integration.rs.provider.Calculator. To do so, we use Springdoc-OpenAPI library:
 - Add 'org.springdoc:springdoc-openapi-ui:1.5.5' dependency to build.gradle
