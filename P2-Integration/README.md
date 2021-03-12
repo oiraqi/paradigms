@@ -10,7 +10,7 @@ Also, the more services/functionality the protocol supports, the more tedious th
 ## Objective
 Can we imagine a programming paradigm, which provides us software developers, with: *the luxury to invoke remote services/functionality, as if they were local*!?
 
-Such a paradigm would by hide all the programming hassle and details mentioned above, hence:
+Such a paradigm should hide all the programming hassle and details mentioned above. By doing so, it would:
 - increase *devloper productivity*
 - promote *software integration* for:
   - richer functionality
@@ -80,10 +80,10 @@ Humans always want more, right? Software developers wanted to overcome the langu
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
-- [Case Study I: XML/SOAP Calculator Web Service](./ws-xml-soap)
+- [Case Study I: XML/SOAP Calculator Web Service](./ws-xml-soap/)
 #### Restful (RS) Web Services
 - Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications
 - Service definition language: unspecified, but some popular languages have emerged:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
-- [Case Study II: REST/OpenAPI Calculator Web Service](./rs-json-openapi)
+- [Case Study II: REST/OpenAPI Calculator Web Service](./rs-json-openapi/)
