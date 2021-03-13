@@ -20,7 +20,7 @@ This repository enables learners to achieve the ability to:
 Part | Main Concepts | Language(s) | APIs / Libraries / Frameworks / Runtimes |
 | --- | --- | --- | --- |
 | **P1** | Protocols, clients, servers, sockets, blocking I/O | Java | Socket API |
-| **P2** | RPC, XML/SOAP, REST/OpenAPI | Java, Python, JavaScript | JAX-WS, Python Zeep, JavaScript Soap, Spring Boot, OpenAPI |
+| **P2** | RPC, Web Services, Service Definition Language, XML/SOAP, REST/OpenAPI | Java, Python, JavaScript | JAX-WS, Python Zeep, JavaScript Soap, Spring Boot, OpenAPI |
 | **P3** | Threads, non-blocking I/O, event loop, job queue, callbacks, promises, async/await | Java, JavaScript |Thread/Runnable, Fetch API, Node.js |
 | **P4** | Observables, observable piping and Rx operators, asynchronous streams | JavaScript | RxJS, Node.js |
 | **P5** | Distributed parallelized datasets, distributed map/reduce (family of) operations, clusters, drivers, workers | Java, Python | Spark |
