@@ -87,8 +87,8 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: IDL -- Interface Definition Language
 
 #### XML/SOAP (XS) Web Services
-- Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C.
-  - Sample SOAP request: computeAll(7.0, 5.0)
+- Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C.
+  - Sample SOAP request / reply: computeAll(7.0, 5.0)
 ```
 POST http://localhost:9000/calculator HTTP/1.1
 Accept-Encoding: gzip,deflate
@@ -110,7 +110,6 @@ User-Agent: Apache-HttpClient/4.5.5
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-  - Corresponding reply
 ```
 HTTP/1.1 200 OK
 Transfer-encoding: chunked
