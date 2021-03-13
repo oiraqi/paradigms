@@ -88,7 +88,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, over HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
-  - SOAP request over HTTP request
+  - SOAP request over HTTP POST request
     ```
     POST http://localhost:9000/calculator HTTP/1.1
     Accept-Encoding: gzip,deflate
@@ -110,24 +110,25 @@ Humans always want more, right? Software developers wanted to overcome the langu
       </soapenv:Body>
     </soapenv:Envelope>
     ```
-```
-HTTP/1.1 200 OK
-Transfer-encoding: chunked
-Content-type: text/xml; charset=utf-8
+  - SOAP reply over HTTP reply
+    ```
+    HTTP/1.1 200 OK
+    Transfer-encoding: chunked
+    Content-type: text/xml; charset=utf-8
 
-<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
-   <S:Body>
-      <ns0:computeAllResponse xmlns:ns0="http://provider.xs.integration.paradigms.sse.aui.ma/">
-         <return>
-            <sum>12.0</sum>
-            <difference>2.0</difference>
-            <product>35.0</product>
-            <ratio>1.4</ratio>
-         </return>
-      </ns0:computeAllResponse>
-   </S:Body>
-</S:Envelope>
-```
+    <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+      <S:Body>
+          <ns0:computeAllResponse xmlns:ns0="http://provider.xs.integration.paradigms.sse.aui.ma/">
+            <return>
+                <sum>12.0</sum>
+                <difference>2.0</difference>
+                <product>35.0</product>
+                <ratio>1.4</ratio>
+            </return>
+          </ns0:computeAllResponse>
+      </S:Body>
+    </S:Envelope>
+    ```
 - Service definition language: [WSDL - Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 - [Case Study: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
 
