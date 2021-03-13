@@ -97,14 +97,16 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 - Self-descriptive messages
 - HATEOAS: Hypermedia As The Engine Of Application State
 
-Web service that follow the REST architectural style are called RESTful web services:
-- Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications:
-  - GET: To retrieve resources from server side. Should have no side effect on server side (safe method)
-  - POST: To create a resource on server side
-  - PUT: To fully update a resource on server side
-  - PATCH: To partially update a resource on server side
-  - DELETE: To delete a resource on server side
-- Service definition language: unspecified, but some popular languages have emerged:
+Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
+- GET: To retrieve resources from server side. Should have no side effect on server side (safe method)
+- POST: To create a resource on server side
+- PUT: To fully update a resource on server side
+- PATCH: To partially update a resource on server side
+- DELETE: To delete a resource on server side
+
+These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
+
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However,some popular languages have emerged as defacto standards:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
 - [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-calculator)
