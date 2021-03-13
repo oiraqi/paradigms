@@ -87,7 +87,8 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: IDL -- Interface Definition Language
 
 #### XML/SOAP (XS) Web Services
-- Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, over HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
+- Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) by W3C - In practice, over HTTP, but using POST method only. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
+
   - `SOAP request over HTTP POST request`
     ```
     POST http://localhost:9000/calculator HTTP/1.1
