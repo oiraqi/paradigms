@@ -88,7 +88,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, over HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
-  - SOAP request over HTTP POST request
+  - `SOAP request over HTTP POST request`
     ```
     POST http://localhost:9000/calculator HTTP/1.1
     Accept-Encoding: gzip,deflate
@@ -110,7 +110,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
       </soapenv:Body>
     </soapenv:Envelope>
     ```
-  - SOAP reply over HTTP reply
+  - `SOAP reply over HTTP reply`
     ```
     HTTP/1.1 200 OK
     Transfer-encoding: chunked
