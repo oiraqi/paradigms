@@ -87,28 +87,29 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: IDL -- Interface Definition Language
 
 #### XML/SOAP (XS) Web Services
-- Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
-  - ```
+- Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, over HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
+  - SOAP request over HTTP request
+    ```
     POST http://localhost:9000/calculator HTTP/1.1
-Accept-Encoding: gzip,deflate
-Content-Type: text/xml;charset=UTF-8
-SOAPAction: ""
-Content-Length: 321
-Host: localhost:9000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.5
+    Accept-Encoding: gzip,deflate
+    Content-Type: text/xml;charset=UTF-8
+    SOAPAction: ""
+    Content-Length: 321
+    Host: localhost:9000
+    Connection: Keep-Alive
+    User-Agent: Apache-HttpClient/4.5.5
 
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
-    xmlns:prov="http://provider.xs.integration.paradigms.sse.aui.ma/">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <prov:computeAll>
-         <arg0>7.0</arg0>
-         <arg1>5.0</arg1>
-      </prov:computeAll>
-   </soapenv:Body>
-</soapenv:Envelope>
-```
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:prov="http://provider.xs.integration.paradigms.sse.aui.ma/">
+      <soapenv:Header/>
+      <soapenv:Body>
+          <prov:computeAll>
+            <arg0>7.0</arg0>
+            <arg1>5.0</arg1>
+          </prov:computeAll>
+      </soapenv:Body>
+    </soapenv:Envelope>
+    ```
 ```
 HTTP/1.1 200 OK
 Transfer-encoding: chunked
