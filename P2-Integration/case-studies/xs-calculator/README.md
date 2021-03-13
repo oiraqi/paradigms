@@ -4,7 +4,7 @@
 - Service definition language: WSDL
 - Protocol: SOAP over HTTP
 - Provider programming language: Java (JAX-WS API)
-- Consumer programming languages: Java, Python (Zeep module), JavScript (Soap module)
+- Consumer programming languages: Java, Python (Zeep module), JavaScript (Soap module)
 
 ## Development Process (Java-first)
 ### Develop the Java provider

@@ -8,7 +8,7 @@ The client/server model allows different processes to communicate remotely. Howe
 Also, the more services/functionality the protocol supports, the more tedious the whole process becomes!
 
 ## Objective
-Can we imagine a programming paradigm, which provides us software developers, with: *the luxury to invoke remote services/functionality, as if they were local*!?
+Can we imagine a programming paradigm, which provides us software developers, with *the luxury of invoking remote services/functionality, as if they were local*!?
 
 Such a paradigm should hide all the programming hassle and details mentioned above. By doing so, it would:
 - increase *devloper productivity*
@@ -34,6 +34,12 @@ If you were to design and develop a traditional client/server application that a
 
 ## History
 See [History and origins on Wikipedia](https://en.wikipedia.org/wiki/Remote_procedure_call#History_and_origins)
+
+## Readings
+You must absolutely familiarize yurself with the following:
+- Serialization
+- XML: eXtensible Markup Language
+- JSON: JavaScript Object Notation
 
 ## Key Concepts
 ### Service API
@@ -104,10 +110,10 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
 - GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* -- should have no side effect on server side (safe method)
   - e.g., GET `http://www.example.com/courses?category=cs`
-- POST: To create resources on server side, specifying resource data in *the request body*
-- PUT: To fully update resources on server side, specifying the id of the resource to be updated and its new version in *the request body*
-- PATCH: To partially update resources on server side, specifying the id of the resource to be updated and its attributes to be updated in *the request body*
-- DELETE: To delete a resource on server side, specifying the id of the resource to be deleted
+- POST: To create a resource on server side, specifying its data in *the request body*
+- PUT: To fully update a resource on server side, specifying its id and new version in *the request body*
+- PATCH: To partially update a resource on server side, specifying its id and attributes to be updated in *the request body*
+- DELETE: To delete a resource on server side, specifying its id in *the request URI*
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
