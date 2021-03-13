@@ -7,7 +7,8 @@ public class Result {
     private double product;
     private double ratio;
 
-    public Result() {}
+    public Result() {
+    }
 
     public Result(double sum, double difference, double product, double ratio) {
         this.sum = sum;

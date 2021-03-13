@@ -3,7 +3,7 @@ package ma.aui.sse.paradigms.integration.xs.consumer;
 import ma.aui.sse.paradigms.integration.xs.consumer.stub.*;
 
 public class Consumer {
-    
+
     public static void main(String[] args) {
 
         // calculator is just a proxy, a stub object -- No business implementation
@@ -11,7 +11,9 @@ public class Consumer {
         // that it's using the remote business (real) implementation as if it were local
         Calculator calculator = new CalculatorService().getCalculatorPort();
 
-        double x = 7.0, y = 5.0, result;
+        double x = 7.0;
+        double y = 5.0;
+        double result;
 
         // Remote calls (as if they were local!)
         // No sockets, no protocol, no hassle!
