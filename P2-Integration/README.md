@@ -80,10 +80,15 @@ Humans always want more, right? Software developers wanted to overcome the langu
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
-- [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/ws-xml-soap)
-#### Restful (RS) Web Services
-- Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications
+- [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/xs-calculator)
+#### RESTful (RS) Web Services
+- Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications:
+  - GET: To retrieve resources from server side. Should have no side effect on server side (safe method)
+  - POST: To create a resource on server side
+  - PUT: To fully update a resource on server side
+  - PATCH: To partially update a resource on server side
+  - DELETE: To delete a resource on server side
 - Service definition language: unspecified, but some popular languages have emerged:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
-- [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-json-openapi)
+- [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-calculator)
