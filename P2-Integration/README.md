@@ -87,8 +87,18 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: IDL -- Interface Definition Language
 
 #### XML/SOAP (XS) Web Services
-- Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
+- Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C.
+  - Sample SOAP request: computeAll(7.0, 5.0)
 ```
+POST http://localhost:9000/calculator HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: text/xml;charset=UTF-8
+SOAPAction: ""
+Content-Length: 321
+Host: localhost:9000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5
+
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
     xmlns:prov="http://provider.xs.integration.paradigms.sse.aui.ma/">
    <soapenv:Header/>
@@ -100,7 +110,26 @@ Humans always want more, right? Software developers wanted to overcome the langu
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-- Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
+  - Corresponding reply
+```
+HTTP/1.1 200 OK
+Transfer-encoding: chunked
+Content-type: text/xml; charset=utf-8
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns0:computeAllResponse xmlns:ns0="http://provider.xs.integration.paradigms.sse.aui.ma/">
+         <return>
+            <difference>2.0</difference>
+            <product>35.0</product>
+            <ratio>1.4</ratio>
+            <sum>12.0</sum>
+         </return>
+      </ns0:computeAllResponse>
+   </S:Body>
+</S:Envelope>
+```
+- Service definition language: [WSDL - Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 - [Case Study: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
 
 #### RESTful (RS) Web Services
@@ -129,7 +158,7 @@ Web services that follow the REST architectural style are called RESTful web ser
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
-As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as defacto standards: [RAML](https://raml.org/) (YAML-based), [OAS -- OpenAPI Specification](https://www.openapis.org/)
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as defacto standards: [RAML](https://raml.org/) (YAML-based), [OAS - OpenAPI Specification](https://www.openapis.org/)
 
 - [Case Study: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
 - [Another example from Spring guides](https://spring.io/guides/gs/rest-service/)
