@@ -31,7 +31,7 @@
 - **./gradlew run**
 
 ### Run the Java consumer
-- Change the mainClassName under build.gradle to ma.aui.sse.csc3374.rpc.consumer.Consumer
+- Change the mainClassName under build.gradle to ma.aui.sse.paradigms.integration.xs..consumer.Consumer
 - **./gradlew run**
 
 ### Run the Python consumer
