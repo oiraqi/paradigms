@@ -72,15 +72,19 @@ In the traditional client/server model, the programming language of the client a
 However, the luxury and abstraction provided by RPC has a cost. Invoking methods/functions remotely while passing parameters and getting results would require (a priori) that both the service provider and consumer be implemented in the same programming language. Indeed, function prototypes, as well as parameters and returned results types depend on the programming language.
 
 Therfore, the first attempts to provide RPC implementations were language-specific. This is [a list on Wikipedia of such attempts](https://en.wikipedia.org/wiki/Remote_procedure_call#Language-specific).
+
 ### Programming Language-Agnostic Technologies
 Humans always want more, right? Software developers wanted to overcome the language dependency constraint. The key was creating a service (API) definition language that positions itself at the same distance from all programming languages, with the possibility to serialize objects into a unified format and deserialize them back, no matter what their original and final language-dependent representations are.
+
 #### CORBA (legacy) -- Common Object Request Broker Architecture
 - Protocol: IIOP -- Internet Inter-ORB Protocol
 - Service definition language: IDL -- Interface Definition Language
+
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
-- [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
+- [Case Study: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
+
 #### RESTful (RS) Web Services
 REST (REpresentational State Transfer) is an *architectural style* with the following architectural properties / non-functional requirements:
 - Performance
@@ -109,5 +113,5 @@ These methods provide a natural mapping to CRUD operations. So, RESTful web serv
 
 As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as defacto standards: [RAML](https://raml.org/) (YAML-based), [OAS -- OpenAPI Specification](https://www.openapis.org/)
 
-- [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
+- [Case Study: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
 - [Another example from Spring guides](https://spring.io/guides/gs/rest-service/)
