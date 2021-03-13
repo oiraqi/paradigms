@@ -88,6 +88,18 @@ Humans always want more, right? Software developers wanted to overcome the langu
 
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
+```
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:prov="http://provider.xs.integration.paradigms.sse.aui.ma/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <prov:computeAll>
+         <arg0>7.0</arg0>
+         <arg1>5.0</arg1>
+      </prov:computeAll>
+   </soapenv:Body>
+</soapenv:Envelope>
+```
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 - [Case Study: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
 
