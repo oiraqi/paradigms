@@ -80,7 +80,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP -- Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
-- [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/xs-calculator)
+- [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/xs-calculator)
 #### RESTful (RS) Web Services
 REST (REpresentational State Transfer) is an *architectural style* with the following architectural properties / non-functional requirements:
 - Performance
@@ -111,4 +111,4 @@ As opposed to XML/SOAP, RESTful web services don't specify a service definition 
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
 
-[Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-calculator)
+[Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
