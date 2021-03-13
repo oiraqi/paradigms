@@ -82,6 +82,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 - Service definition language: [WSDL -- Web Service Definition Language](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) (XML-based), by W3C
 - [Case Study I: XML/SOAP Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/xs-calculator)
 #### RESTful (RS) Web Services
+##### Test
 - Protocol: Raw HTTP, using GET, POST, PATCH, PUT and DELETE methods, and providing a natural mapping to CRUD operations. So, it is naturally suitable for data-oriented applications:
   - GET: To retrieve resources from server side. Should have no side effect on server side (safe method)
   - POST: To create a resource on server side
