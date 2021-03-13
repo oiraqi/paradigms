@@ -89,7 +89,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) (in practice, on top of HTTP, but using POST method only), by W3C. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
   - ```
-POST http://localhost:9000/calculator HTTP/1.1
+    POST http://localhost:9000/calculator HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Type: text/xml;charset=UTF-8
 SOAPAction: ""
