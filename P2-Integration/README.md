@@ -120,10 +120,10 @@ Content-type: text/xml; charset=utf-8
    <S:Body>
       <ns0:computeAllResponse xmlns:ns0="http://provider.xs.integration.paradigms.sse.aui.ma/">
          <return>
+            <sum>12.0</sum>
             <difference>2.0</difference>
             <product>35.0</product>
             <ratio>1.4</ratio>
-            <sum>12.0</sum>
          </return>
       </ns0:computeAllResponse>
    </S:Body>
