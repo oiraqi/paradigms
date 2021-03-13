@@ -98,10 +98,11 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 - HATEOAS: Hypermedia As The Engine Of Application State
 
 Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
-- GET: To retrieve resources from server side. Should have no side effect on server side (safe method)
-- POST: To create a resource on server side
-- PUT: To fully update a resource on server side
-- PATCH: To partially update a resource on server side
+- GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* -- should have no side effect on server side (safe method)
+  - e.g., GET http://www.example.com/courses?category=cs
+- POST: To create resources on server side, specifying resource data in *the request body*
+- PUT: To fully update resources on server side
+- PATCH: To partially update resources on server side
 - DELETE: To delete a resource on server side
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
