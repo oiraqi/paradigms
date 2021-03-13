@@ -112,3 +112,5 @@ As opposed to XML/SOAP, RESTful web services don't specify a service definition 
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
 
 [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
+
+[Another example from Spring Guides](https://spring.io/guides/gs/rest-service/)
