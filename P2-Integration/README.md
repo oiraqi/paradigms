@@ -17,9 +17,9 @@ Such a paradigm should hide all the programming hassle and details mentioned abo
   - higher performance
 
 ## Examples
-- Getting the weather of a given city from a specialized provider, such as Yahoo! Weather (seeking functionality): you don't have the necessary data to do it yourself!
-- Translating text using a specialized service, such as Google Translate (seeking functionality): you don't have the algorithms and data to do it yourself!
-- Inversing large matrices using a specialized service (seeking performance): you may not have the necessary processing power!
+- Getting the weather of a given city from a specialized provider, such as Yahoo! Weather (integration for richer functionality): you don't have the necessary data to do it yourself!
+- Translating text using a specialized service, such as Google Translate (integration for richer functionality): you don't have the algorithms and data to do it yourself!
+- Inversing large matrices using a specialized service (integration for higher performance): you may not have the necessary processing power!
 
 *As a matter of fact, cloud computing wouldn't be possible without such a paradigm!*
 
