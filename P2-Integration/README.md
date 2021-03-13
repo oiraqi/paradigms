@@ -99,7 +99,7 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 
 Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
 - GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* -- should have no side effect on server side (safe method)
-  - e.g., GET http://www.example.com/courses?category=cs
+  - e.g., GET `http://www.example.com/courses?category=cs`
 - POST: To create resources on server side, specifying resource data in *the request body*
 - PUT: To fully update resources on server side
 - PATCH: To partially update resources on server side
@@ -107,7 +107,8 @@ Web services that follow the REST architectural style are called RESTful web ser
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
-As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However,some popular languages have emerged as defacto standards:
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as defacto standards:
   - [RAML](https://raml.org/) (YAML-based)
   - [OAS -- OpenAPI Specification](https://www.openapis.org/)
-- [Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-calculator)
+
+[Case Study II: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/rs-calculator)
