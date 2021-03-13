@@ -30,6 +30,6 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'ma.aui.sse.csc3374.rpc.provider.Provider'
-    // mainClassName = 'ma.aui.sse.csc3374.rpc.consumer.Consumer'
+    mainClassName = 'ma.aui.sse.paradigms.integration.xs.provider.Provider'
+    // mainClassName = 'ma.aui.sse.paradigms.integration.xs.consumer.Consumer'
 }

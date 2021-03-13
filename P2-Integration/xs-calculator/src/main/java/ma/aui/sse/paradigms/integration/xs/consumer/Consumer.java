@@ -1,6 +1,6 @@
-package ma.aui.sse.csc3374.rpc.consumer;
+package ma.aui.sse.paradigms.integration.xs.consumer;
 
-import ma.aui.sse.csc3374.rpc.consumer.stub.*;
+import ma.aui.sse.paradigms.integration.xs.consumer.stub.*;
 
 public class Consumer {
     

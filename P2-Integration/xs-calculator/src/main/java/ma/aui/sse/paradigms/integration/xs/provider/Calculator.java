@@ -1,4 +1,4 @@
-package ma.aui.sse.csc3374.rpc.provider;
+package ma.aui.sse.paradigms.integration.xs.provider;
 
 import javax.jws.WebService;
 
