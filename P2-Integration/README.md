@@ -103,8 +103,8 @@ Therfore, the first attempts to provide RPC implementations were language-specif
 Humans always want more, right? Software developers wanted to overcome the language dependency constraint. The key was creating a service (API) definition language that positions itself at the same distance from all programming languages, with the possibility to serialize objects into a unified format and deserialize them back, no matter what their original and final language-dependent representations are.
 
 #### CORBA (legacy) - Common Object Request Broker Architecture
-- Protocol: IIOP -- Internet Inter-ORB Protocol
-- Service definition language: IDL -- Interface Definition Language
+- Protocol: IIOP - Internet Inter-ORB Protocol
+- Service definition language: IDL - Interface Definition Language
 
 #### XML/SOAP (XS) Web Services
 - Protocol: [SOAP - Simple Object Access Protocol](https://www.w3.org/TR/soap/) by W3C - In practice, over HTTP, but using POST method only. Consider these Sample SOAP request / reply, as a result of calling `computeAll(7.0, 5.0)`:
@@ -170,7 +170,7 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 - HATEOAS: Hypermedia As The Engine Of Application State
 
 Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
-- GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* -- should have no side effect on server side (safe method)
+- GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* - should have no side effect on server side (safe method)
   - e.g., GET `http://www.example.com/courses?category=cs`
 - POST: To create a resource on server side, specifying its data in *the request body*
 - PUT: To fully update a resource on server side, specifying its id and new version in *the request body*
