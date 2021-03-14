@@ -184,5 +184,5 @@ These methods provide a natural mapping to CRUD operations. So, RESTful web serv
 
 As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as de-facto standards: [RAML](https://raml.org/) (YAML-based), [OAS - OpenAPI Specification](https://www.openapis.org/)
 
-- [Case Study: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
-- [Case Study: REST XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
+- [Case Study (Service-oriented): REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
+- [Case Study (Data-oriented / CRUD): REST XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
