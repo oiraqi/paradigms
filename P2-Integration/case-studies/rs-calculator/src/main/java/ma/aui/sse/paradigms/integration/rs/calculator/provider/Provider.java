@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.integration.rs.provider;
+package ma.aui.sse.paradigms.integration.rs.calculator.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

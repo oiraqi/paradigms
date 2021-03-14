@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.integration.rs.provider;
+package ma.aui.sse.paradigms.integration.rs.calculator.provider;
 
 public class Result {
 
