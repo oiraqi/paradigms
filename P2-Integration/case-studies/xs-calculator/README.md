@@ -20,18 +20,7 @@
   - **wsgen -wsdl -cp build/classes/java/main/ -d build/classes/java/main/ -r src/main/resources/ ma.aui.sse.paradigms.integration.xs.provider.Calculator**
 - Change the service location url within the generated src/main/resources/CalculatorService.wsdl (<soap:address location="REPLACE_WITH_ACTUAL_URL"/>) to: `http://localhost:9000/calculator`
 
-### Develop the Java consumer
-- Generate the Java stub code from CalculatorService.wsdl:
-  - **wsimport -p ma.aui.sse.paradigms.integration.xs.consumer.stub -d build/classes/java/main/ src/main/resources/CalculatorService.wsdl**
-- Write the Java consumer: ma.aui.sse.paradigms.integration.xs.consumer.Consumer.java
-- Rebuild the code:
-  - **./gradlew build**
-
 ### Run the Java provider
-- **./gradlew run**
-
-### Run the Java consumer
-- Change the mainClassName under build.gradle to ma.aui.sse.paradigms.integration.xs..consumer.Consumer
 - **./gradlew run**
 
 ### Develop and run the Python consumer
@@ -47,3 +36,14 @@
 - Write src/main/js/consumer.js. As JavaScript is a dynamic language, stub code is generated dynamically
 - Run the consumer:
   - node src/main/js/consumer.js
+
+### Develop the Java consumer
+- Generate the Java stub code from CalculatorService.wsdl:
+  - **wsimport -p ma.aui.sse.paradigms.integration.xs.consumer.stub -d build/classes/java/main/ src/main/resources/CalculatorService.wsdl**
+- Write the Java consumer: ma.aui.sse.paradigms.integration.xs.consumer.Consumer.java
+- Rebuild the code:
+  - **./gradlew build**
+
+### Run the Java consumer
+- Change the mainClassName under build.gradle to ma.aui.sse.paradigms.integration.xs..consumer.Consumer
+- **./gradlew run**
