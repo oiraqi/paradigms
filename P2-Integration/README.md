@@ -125,7 +125,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
     User-Agent: Apache-HttpClient/4.5.5
 
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
-        xmlns:prov="http://provider.xs.integration.paradigms.sse.aui.ma/">
+        xmlns:prov="http://provider.calculator.xs.integration.paradigms.sse.aui.ma/">
       <soapenv:Header/>
       <soapenv:Body>
           <prov:computeAll>
@@ -143,7 +143,7 @@ Humans always want more, right? Software developers wanted to overcome the langu
 
     <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
       <S:Body>
-          <ns0:computeAllResponse xmlns:ns0="http://provider.xs.integration.paradigms.sse.aui.ma/">
+          <ns0:computeAllResponse xmlns:ns0="http://provider.calculator.xs.integration.paradigms.sse.aui.ma/">
             <return>
                 <sum>12.0</sum>
                 <difference>2.0</difference>
