@@ -1,14 +1,14 @@
 # swagger_client.CalculatorApi
 
-All URIs are relative to *http://localhost:8080*
+All URIs are relative to *https://virtserver.swaggerhub.com/oiraqi/Calculator/1.0.0*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**add**](CalculatorApi.md#add) | **GET** /calculator/add | 
-[**compute_all**](CalculatorApi.md#compute_all) | **GET** /calculator/computeAll | 
-[**divide**](CalculatorApi.md#divide) | **GET** /calculator/divide | 
-[**multiply**](CalculatorApi.md#multiply) | **GET** /calculator/multiply | 
-[**subtract**](CalculatorApi.md#subtract) | **GET** /calculator/subtract | 
+[**add**](CalculatorApi.md#add) | **GET** /calculator/additions | 
+[**compute_all**](CalculatorApi.md#compute_all) | **GET** /calculator/all | 
+[**divide**](CalculatorApi.md#divide) | **GET** /calculator/divisions | 
+[**multiply**](CalculatorApi.md#multiply) | **GET** /calculator/multiplications | 
+[**subtract**](CalculatorApi.md#subtract) | **GET** /calculator/subtractions | 
 
 # **add**
 > float add(x, y)

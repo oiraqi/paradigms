@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.1",
     "info": {
-        "title": "OpenAPI definition",
+        "title": "Calculator OpenAPI definition",
         "version": "v0"
     },
     "servers": [
@@ -11,7 +11,48 @@
         }
     ],
     "paths": {
-        "/calculator/subtract": {
+        "/calculator/additions": {
+            "get": {
+                "tags": [
+                    "calculator"
+                ],
+                "operationId": "add",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "number",
+                            "format": "double"
+                        }
+                    },
+                    {
+                        "name": "y",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "number",
+                            "format": "double"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "*/*": {
+                                "schema": {
+                                    "type": "number",
+                                    "format": "double"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/calculator/subtractions": {
             "get": {
                 "tags": [
                     "calculator"
@@ -52,7 +93,7 @@
                 }
             }
         },
-        "/calculator/multiply": {
+        "/calculator/multiplications": {
             "get": {
                 "tags": [
                     "calculator"
@@ -93,7 +134,7 @@
                 }
             }
         },
-        "/calculator/divide": {
+        "/calculator/divisions": {
             "get": {
                 "tags": [
                     "calculator"
@@ -134,7 +175,7 @@
                 }
             }
         },
-        "/calculator/computeAll": {
+        "/calculator/all": {
             "get": {
                 "tags": [
                     "calculator"
@@ -173,48 +214,7 @@
                     }
                 }
             }
-        },
-        "/calculator/add": {
-            "get": {
-                "tags": [
-                    "calculator"
-                ],
-                "operationId": "add",
-                "parameters": [
-                    {
-                        "name": "x",
-                        "in": "query",
-                        "required": true,
-                        "schema": {
-                            "type": "number",
-                            "format": "double"
-                        }
-                    },
-                    {
-                        "name": "y",
-                        "in": "query",
-                        "required": true,
-                        "schema": {
-                            "type": "number",
-                            "format": "double"
-                        }
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "OK",
-                        "content": {
-                            "*/*": {
-                                "schema": {
-                                    "type": "number",
-                                    "format": "double"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        }        
     },
     "components": {
         "schemas": {
