@@ -173,7 +173,9 @@ To fulfill these requirements, REST defines a set of constraints / design princi
 - Self-descriptive messages
 - HATEOAS: Hypermedia As The Engine Of Application State
 
-Web services that follow the REST architectural style are called RESTful web services. There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
+Web services that follow the REST architectural style are called RESTful web services. *It is worth mentioning that REST style diverges from RPC style.* While in RPC, function calls are statically built into the consumer code, RESTful clients should be able to discover and call new functionality at runtime, through hyperlinks returned as part of responses (HATEOAS principle).
+
+There are strong ties between REST and HTTP. As such, RESTful web services use the HTTP protocol, in particular: GET, POST, PATCH, PUT and DELETE methods:
 - GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* - should have no side effect on server side (safe method)
   - e.g., GET `http://www.example.com/courses?category=cs`
 - POST: To create a resource on server side, specifying its data in *the request body*
