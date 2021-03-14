@@ -1,6 +1,14 @@
 # Integration: Service Oriented Model / RPC Paradigm
 ## Table of Cotents
-[Problem](#problem)
+- [Problem](#problem)
+- [Objective](#objective)
+- [Examples](#examples)
+- [Brainstorming](#brainstorming)
+- [Solution: RPC Paradigm - Remote Procedure Call](#solution-rpc-paradigm---remote-procedure-call)
+- [History](#history)
+- [Readings](#readings)
+- [Key Concepts](#key-concepts)
+  - [Service API](#service-api)
 ## Problem
 The client/server model allows different processes to communicate remotely. However, designing and developing a client/server application is tedious. Indeed, it requires:
 - Designing a specific protocol or, in the best case, adopting and adapting an existing (maybe standard) protocol
@@ -31,7 +39,7 @@ If you were to design and develop a traditional client/server application that a
 - What parts of your solution are really specific to this application?
 - What parts of your solution could be generalized and used for other purposes and applications?
 
-## Solution: RPC Paradigm -- Remote Procedure Call
+## Solution: RPC Paradigm - Remote Procedure Call
 <p align="center"><img src="figures/architecture.png"><br/>Figure 1. RPC Architecture</p>
 
 ## History
