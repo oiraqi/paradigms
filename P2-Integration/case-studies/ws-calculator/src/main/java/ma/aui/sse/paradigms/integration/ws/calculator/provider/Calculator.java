@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.integration.rs.calculator.provider;
+package ma.aui.sse.paradigms.integration.ws.calculator.provider;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
