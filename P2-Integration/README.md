@@ -29,7 +29,7 @@ The client/server model allows different processes to communicate remotely. Howe
 - Managing connections, as well as corresponding streams, on both sides
 - Implementing the protocol, including (application) error management, on both sides
 
-Also, the more services/functionality the protocol supports, the more tedious the whole process becomes!
+Also, the more services/functionality should be provides, the more tedious the whole process becomes!
 
 ## Objective
 Can we imagine a programming paradigm, which provides us software developers, with *the luxury of invoking remote services/functionality, as if they were local*!?
