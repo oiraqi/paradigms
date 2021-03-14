@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.sse.integration.rs.provider;
+package ma.aui.sse.paradigms.sse.integration.rs.xcommerce.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
