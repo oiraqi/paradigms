@@ -1,4 +1,6 @@
 # Integration: Service Oriented Model / RPC Paradigm
+## Table of Cotents
+[Problem](#problem)
 ## Problem
 The client/server model allows different processes to communicate remotely. However, designing and developing a client/server application is tedious. Indeed, it requires:
 - Designing a specific protocol or, in the best case, adopting and adapting an existing (maybe standard) protocol
@@ -159,7 +161,7 @@ Web services that follow the REST architectural style are called RESTful web ser
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
-As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as defacto standards: [RAML](https://raml.org/) (YAML-based), [OAS - OpenAPI Specification](https://www.openapis.org/)
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as de-facto standards: [RAML](https://raml.org/) (YAML-based), [OAS - OpenAPI Specification](https://www.openapis.org/)
 
 - [Case Study: REST/OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-calculator)
 - [Another example from Spring guides](https://spring.io/guides/gs/rest-service/)
