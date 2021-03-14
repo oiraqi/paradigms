@@ -26,14 +26,14 @@
 ### Develop and run the Python consumer
 - Install Zeep package using pip:
   - pip install zeep
-- Write src/main/python/consumer.py. As python is a dynamic language, stub code is generated dynamically
+- Write src/main/python/consumer.py. As python is a dynamic language, client stub code is generated dynamically
 - run the consumer:
   - python src/main/python/consumer.py
 
 ### Run the JS consumer
 - Install Soap module using NPM:
   - npm install soap
-- Write src/main/js/consumer.js. As JavaScript is a dynamic language, stub code is generated dynamically
+- Write src/main/js/consumer.js. As JavaScript is a dynamic language, client stub code is generated dynamically
 - Run the consumer:
   - node src/main/js/consumer.js
 
