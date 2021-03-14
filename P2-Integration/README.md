@@ -14,7 +14,7 @@
 - [Runtime Flow](#runtime-flow)
 - [Development Process](#development-process)
   - [API-first Approach](#api-first-approach)
-  - [Code-firstApproach](#code-first-approach)
+  - [Code-first Approach](#code-first-approach)
 - [Technologies](#technologies)
   - [Programming Language-Specific Technologies](#programming-language-specific-technologies)
   - [Programming Language-Agnostic Technologies](#programming-language-agnostic-technologies)
@@ -102,7 +102,7 @@ Therfore, the first attempts to provide RPC implementations were language-specif
 ### Programming Language-Agnostic Technologies
 Humans always want more, right? Software developers wanted to overcome the language dependency constraint. The key was creating a service (API) definition language that positions itself at the same distance from all programming languages, with the possibility to serialize objects into a unified format and deserialize them back, no matter what their original and final language-dependent representations are.
 
-#### CORBA (legacy) -- Common Object Request Broker Architecture
+#### CORBA (legacy) - Common Object Request Broker Architecture
 - Protocol: IIOP -- Internet Inter-ORB Protocol
 - Service definition language: IDL -- Interface Definition Language
 
