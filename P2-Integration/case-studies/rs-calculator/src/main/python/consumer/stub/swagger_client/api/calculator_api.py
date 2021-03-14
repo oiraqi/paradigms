@@ -118,7 +118,7 @@ class CalculatorApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/calculator/additions', 'GET',
+            '/calculator/add', 'GET',
             path_params,
             query_params,
             header_params,
@@ -320,7 +320,7 @@ class CalculatorApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/calculator/divisions', 'GET',
+            '/calculator/divide', 'GET',
             path_params,
             query_params,
             header_params,
@@ -421,7 +421,7 @@ class CalculatorApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/calculator/multiplications', 'GET',
+            '/calculator/multiply', 'GET',
             path_params,
             query_params,
             header_params,
@@ -522,7 +522,7 @@ class CalculatorApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/calculator/subtractions', 'GET',
+            '/calculator/subtract', 'GET',
             path_params,
             query_params,
             header_params,

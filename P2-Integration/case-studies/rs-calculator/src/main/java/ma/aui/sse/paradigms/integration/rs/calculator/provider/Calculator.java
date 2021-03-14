@@ -8,22 +8,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/calculator")
 public class Calculator {
 
-    @GetMapping("/additions")
+    @GetMapping("/add")
     public double add(double x, double y) {
         return x + y;
     }
 
-    @GetMapping("/subtractions")
+    @GetMapping("/subtract")
     public double subtract(double x, double y) {
         return x - y;
     }
 
-    @GetMapping("/multiplications")
+    @GetMapping("/multiply")
     public double multiply(double x, double y) {
         return x * y;
     }
 
-    @GetMapping("/divisions")
+    @GetMapping("/divide")
     public double divide(double x, double y) {
         return x / y;
     }

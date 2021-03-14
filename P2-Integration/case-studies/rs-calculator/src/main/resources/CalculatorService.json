@@ -2,7 +2,7 @@
     "openapi": "3.0.1",
     "info": {
         "title": "Calculator OpenAPI definition",
-        "version": "v0"
+        "version": "1.0.0"
     },
     "servers": [
         {
@@ -11,7 +11,7 @@
         }
     ],
     "paths": {
-        "/calculator/additions": {
+        "/calculator/add": {
             "get": {
                 "tags": [
                     "calculator"
@@ -52,7 +52,7 @@
                 }
             }
         },
-        "/calculator/subtractions": {
+        "/calculator/subtract": {
             "get": {
                 "tags": [
                     "calculator"
@@ -93,7 +93,7 @@
                 }
             }
         },
-        "/calculator/multiplications": {
+        "/calculator/multiply": {
             "get": {
                 "tags": [
                     "calculator"
@@ -134,7 +134,7 @@
                 }
             }
         },
-        "/calculator/divisions": {
+        "/calculator/divide": {
             "get": {
                 "tags": [
                     "calculator"
