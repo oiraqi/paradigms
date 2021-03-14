@@ -1,7 +1,7 @@
 # Case Study: OpenAPI Calculator Web Service
 
 ## Disclaimer
-This is not (and not meant to be) a REST service, as it doesn't abide by all REST constraints / design principles, mainly HATEOAS.
+This is not (and not meant to be) a RESTful service, as it doesn't abide by all REST constraints / design principles, mainly HATEOAS.
 
 ## Technologies
 - Service definition language: OAS (OpenAPI Specification) 3.0
@@ -36,5 +36,5 @@ We generate the OpenAPI service description from ma.aui.sse.paradigms.integratio
 - Generate Python client stub from the generated Calculator OpenAPI definition using SwaggerHub.com
 - Unzip the generated python code under `src/main/python/consumer`
 - Get to the unzipped folder and run: `python setup.py install`
-- Write `src/main/python/consumer/consumer.py`
+- Write the consumer: `src/main/python/consumer/consumer.py`
 - Run it: `python src/main/python/consumer/consumer.py`
