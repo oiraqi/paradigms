@@ -22,12 +22,12 @@ To initialize a Spring Boot application, you need to create a Gradle project, cu
 
 You will get your initialized Gradle project as a zip file. Unzip it and this will be your work/project directory.
 
-- Write the calculator service business implementation: ma.aui.sse.paradigms.integration.rs.calculator.provider.Calculator
+- Write the calculator service business implementation: ma.aui.sse.paradigms.integration.ws.calculator.provider.Calculator
 - Mark it as a web service through the @RestController Spring annotation. *Caution: This is not enough to consider our web service a RESTful service*
-- Write Result data transfer object (DTO): ma.aui.sse.paradigms.integration.rs.calculator.provider.Result
+- Write Result data transfer object (DTO): ma.aui.sse.paradigms.integration.ws.calculator.provider.Result
 
 ### Generate the OpenAPI Service Description
-We generate the OpenAPI service description from ma.aui.sse.paradigms.integration.rs.calculator.provider.Calculator. To do so, we use Springdoc-OpenAPI generation tool:
+We generate the OpenAPI service description from ma.aui.sse.paradigms.integration.ws.calculator.provider.Calculator. To do so, we use Springdoc-OpenAPI generation tool:
 - Add 'org.springdoc:springdoc-openapi-ui:1.5.5' dependency to build.gradle
 - Access `http://localhost:8080/v3/`
 - Copy the output. This is our Calculator OpenAPI definition
