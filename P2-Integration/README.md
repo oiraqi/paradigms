@@ -177,8 +177,8 @@ Web services that follow the REST architectural style are called RESTful web ser
 - GET: To retrieve resources from server side, specifying some input (criteria) in *the request URI* - should have no side effect on server side (safe method)
   - e.g., GET `http://www.example.com/courses?category=cs`
 - POST: To create a resource on server side, specifying its data in *the request body*
-- PUT: To fully update a resource on server side, specifying its id and new version in *the request body*
-- PATCH: To partially update a resource on server side, specifying its id and attributes to be updated in *the request body*
+- PUT: To fully update a resource on server side, specifying its id in *the request URI* and new version in *the request body*
+- PATCH: To partially update a resource on server side, specifying its id in *the request URI* and the attributes to be updated in *the request body*
 - DELETE: To delete a resource on server side, specifying its id in *the request URI*
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
