@@ -33,7 +33,7 @@ We generate the OpenAPI service description from ma.aui.sse.paradigms.integratio
 - Copy the output. This is our Calculator OpenAPI definition
 
 ### Develop the Python consumer
-- Generate Python client stub from the generated Calculator OpenAPI definition using SwaggerHub.com
+- Generate Python client stub from the generated Calculator OpenAPI definition using [SwaggerHub.com](https://www.swaggerhub.com)
 - Unzip the generated python code under `src/main/python/consumer`
 - Get to the unzipped folder and run: `python setup.py install`
 - Write the consumer: `src/main/python/consumer/consumer.py`
