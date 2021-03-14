@@ -1,6 +1,6 @@
 # swagger_client.CalculatorApi
 
-All URIs are relative to *https://virtserver.swaggerhub.com/oiraqi/Calculator/1.0.0*
+All URIs are relative to *http://localhost:8080*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
