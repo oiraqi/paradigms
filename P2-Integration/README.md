@@ -18,6 +18,9 @@
 - [Technologies](#technologies)
   - [Programming Language-Specific Technologies](#programming-language-specific-technologies)
   - [Programming Language-Agnostic Technologies](#programming-language-agnostic-technologies)
+    - [CORBA (legacy) - Common Object Request Broker Architecture](#corba-legacy---common-object-request-broker-architecture)
+    - [XML/SOAP (XS) Web Services](#xmlsoap-xs-web-services)
+    - [RESTful (RS) Web Services](#restful-rs-web-services)
 
 ## Problem
 The client/server model allows different processes to communicate remotely. However, designing and developing a client/server application is tedious. Indeed, it requires:
