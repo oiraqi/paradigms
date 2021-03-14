@@ -187,7 +187,7 @@ As opposed to XML/SOAP, RESTful web services don't specify a service definition 
 - [Case Study (Data-oriented / CRUD): RESTful XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
 
 #### Other Web Services (Non XML/SOAP, RESTless)
-People have tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This isn't true. As we saw earlier, REST defines strict constraints. If the web service doesn't fulfill them all, without exception, then you can call it whetever you want, but RESTful.
+People have tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This isn't correct. As we saw earlier, REST defines strict constraints. If a web service doesn't fulfill them all, without exception, then you can call it whatever you want, but RESTful.
 
 This case study is about a calculator web service based on OpenAPI. Yet, it does not fulfill all REST constraints, especially HATEOAS. So, we shouldn't call it a RESTful web service.
 - [Case Study (Service-oriented): OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/ws-calculator)
