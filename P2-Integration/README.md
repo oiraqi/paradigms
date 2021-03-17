@@ -199,5 +199,6 @@ People have tendency to call any web service that is not based on XML/SOAP, a RE
 This case study is about a calculator web service based on OpenAPI. Yet, it does not fulfill all REST constraints, including HATEOAS. So, we shouldn't call it a RESTful web service.
 - [Case Study (Service-oriented): OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/ws-calculator)
 
-#### GraphQL Web Service
+#### GraphQL Web Services
+GraphQL has been developed by Facebook since 2012 and then standardized in 2015 as a response to RESTful/OpenAPI web services limtations, including the over/under fetching issues. An interesting tutorial can be accessed [here](https://www.howtographql.com/).
 - [Case Study (Data-oriented / CRUD): GraphQL XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/gs-xcommerce)
