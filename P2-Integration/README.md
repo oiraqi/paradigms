@@ -21,7 +21,8 @@
     - [CORBA (legacy) - Common Object Request Broker Architecture](#corba-legacy---common-object-request-broker-architecture)
     - [XML/SOAP (XS) Web Services](#xmlsoap-xs-web-services)
     - [RESTful (RS) Web Services](#restful-rs-web-services)
-    - [Other Web Services (Non XML/SOAP, RESTless)](#other-web-services-non-xmlsoap-restless)
+    - [OpenAPI (RESTless) Web Services](#openapi-restless-web-services)
+    - [GraphQL Web Services](#graphql-web-service)
 
 ## Problem
 The client/server model allows different processes to communicate remotely. However, designing and developing a client/server application is tedious. Indeed, it requires:
