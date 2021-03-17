@@ -96,6 +96,9 @@ In this approach, developers start by coding the service business implementation
 <p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 4. Code-first Approach</p>
 
 ## Technologies
+Figure 5. gives an overview on the technology spectrum.
+<p align="center"><img src="figures/som-technologies-spectrum.png"><br/>Figure 5. Technologies Spectrum</p>
+
 ### Programming Language-Specific Technologies
 In the traditional client/server model, the programming language of the client and the one of the server are not relevant to the interaction. What really matters is the protocol and how the exchanged messages are compliant with the protocol.
 
@@ -185,12 +188,12 @@ There are strong ties between REST and HTTP. As such, RESTful web services use t
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
-As opposed to XML/SOAP, RESTful web services don't specify a service definition language. However, some popular languages have emerged as de-facto standards, such as [RAML](https://raml.org/) (YAML-based) and [OAS - OpenAPI Specification](https://www.openapis.org/).
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language and leaves it open to service devlopers to describe their API the way they see fit. However, some popular languages have emerged as de-facto standards, such as [RAML](https://raml.org/) (YAML-based) and [OAS - OpenAPI Specification](https://www.openapis.org/).
 
 - [Case Study (Data-oriented / CRUD): RESTful XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
 
 #### Other Web Services (Non XML/SOAP, RESTless)
-People have tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This isn't correct. As we saw earlier, REST defines strict constraints. If a web service misses just one of them, then you can call it whatever you want, but RESTful.
+People have tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This is not accurate. As we saw earlier, REST defines strict constraints. If a web service misses just one of them, then you can call it whatever you want, but RESTful.
 
-This case study is about a calculator web service based on OpenAPI. Yet, it does not fulfill all REST constraints, especially HATEOAS. So, we shouldn't call it a RESTful web service.
+This case study is about a calculator web service based on OpenAPI. Yet, it does not fulfill all REST constraints, including HATEOAS. So, we shouldn't call it a RESTful web service.
 - [Case Study (Service-oriented): OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/ws-calculator)

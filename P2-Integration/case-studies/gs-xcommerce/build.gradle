@@ -16,8 +16,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-security:2.4.3'
 
 	implementation 'javax.validation:validation-api:2.0.1.Final'
+	implementation 'com.yahoo.elide:elide-spring-boot-starter:5.0.0-pr32'
 	runtime 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

@@ -1,0 +1,18 @@
+elide:
+  json-api:
+    path: /api/v1
+    enabled: true
+  graphql:
+    path: /graphql/api/v1
+    enabled: true
+  swagger:
+    path: /doc
+    enabled: true
+    version: "1.0"
+  aggregation-store:
+    enabled: true
+    default-dialect: h2
+  dynamic-config:
+    # path: src/main/resources/analytics
+    enabled: false
+

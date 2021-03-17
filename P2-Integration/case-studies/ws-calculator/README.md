@@ -29,7 +29,7 @@ You will get your initialized Gradle project as a zip file. Unzip it and this wi
 ### Generate the OpenAPI Service Description
 We generate the OpenAPI service description from ma.aui.sse.paradigms.integration.ws.calculator.provider.Calculator. To do so, we use Springdoc-OpenAPI generation tool:
 - Add 'org.springdoc:springdoc-openapi-ui:1.5.5' dependency to build.gradle
-- Access `http://localhost:8080/v3/`
+- Access `http://localhost:8080/v3/api-docs`
 - Copy the output. This is our Calculator OpenAPI definition
 
 ### Develop the Python consumer
