@@ -96,7 +96,7 @@ In this approach, developers start by coding the service business implementation
 <p align="center"><img src="figures/dev-process-code-first.png"><br/>Figure 4. Code-first Approach</p>
 
 ## Technologies
-Figure 5. gives an overview on the technology spectrum.
+Figure 5. gives an overview of the technology spectrum.
 <p align="center"><img src="figures/som-technologies-spectrum.png"><br/>Figure 5. Technologies Spectrum</p>
 
 ### Programming Language-Specific Technologies
