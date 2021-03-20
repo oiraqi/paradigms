@@ -1,4 +1,4 @@
-# Integration: Service Oriented Model: RPC / REST / GraphQL
+# Integration: Service Oriented Model - RPC / REST / GraphQL
 ## Table of Cotents
 - [Problem](#problem)
 - [Objective](#objective)
