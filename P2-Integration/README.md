@@ -21,7 +21,6 @@
     - [CORBA (legacy) - Common Object Request Broker Architecture](#corba-legacy---common-object-request-broker-architecture)
     - [XML/SOAP (XS) Web Services](#xmlsoap-xs-web-services)
     - [RESTful (RS) Web Services](#restful-rs-web-services)
-    - [OpenAPI (RESTless) Web Services](#openapi-restless-web-services)
     - [GraphQL Web Services](#graphql-web-service)
 
 ## Problem
@@ -191,13 +190,14 @@ These methods provide a natural mapping to CRUD operations. So, RESTful web serv
 
 As opposed to XML/SOAP, RESTful web services don't specify a service definition language and leaves it open to service devlopers to describe their API the way they see fit. However, some popular languages have emerged as de-facto standards, such as [RAML](https://raml.org/) (YAML-based) and [OAS - OpenAPI Specification](http://spec.openapis.org/oas/v3.1.0).
 
-- [Case Study (Data-oriented / CRUD): RESTful XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
-
-#### OpenAPI (RESTless) Web Services
-People have tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This is not accurate. As we saw earlier, REST defines strict constraints. If a web service misses just one of them, then you can call it whatever you want, but RESTful.
+There is a tendency to call any web service that is not based on XML/SOAP, a RESTful web service. This is not accurate. As we saw earlier, REST defines strict constraints. If a web service misses just one of them, then you can call it whatever you want, but RESTful.
 
 This case study is about a calculator web service based on OpenAPI. Yet, it does not fulfill all REST constraints, including HATEOAS. So, we shouldn't call it a RESTful web service.
 - [Case Study (Service-oriented): OpenAPI Calculator Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/ws-calculator)
+
+And this case study is about a pure RESTful web service, as it fulfills all REST constraints, including HATEOS (managed by Spring framework):
+- [Case Study (Data-oriented / CRUD): RESTful XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
+
 
 #### GraphQL Web Services
 GraphQL has been developed by Facebook since 2012 and then standardized in 2015 as a response to RESTful/OpenAPI web services limtations, including the over/under fetching issues. An interesting tutorial can be accessed [here](https://www.howtographql.com/).
