@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.sse.integration.rs.xcommerce.provider.security;
+package ma.aui.sse.paradigms.integration.rs.xcommerce.provider.security;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

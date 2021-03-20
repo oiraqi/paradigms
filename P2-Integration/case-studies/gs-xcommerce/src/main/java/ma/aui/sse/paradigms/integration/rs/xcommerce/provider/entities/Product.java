@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.sse.integration.rs.xcommerce.provider.entities;
+package ma.aui.sse.paradigms.integration.rs.xcommerce.provider.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
