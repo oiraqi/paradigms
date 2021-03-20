@@ -48,7 +48,7 @@ Such a paradigm should hide all the programming hassle and details mentioned abo
 *As a matter of fact, cloud computing wouldn't be possible without such a paradigm!*
 
 ## Readings
-You must absolutely familiarize yurself with the following:
+You must absolutely familiarize yourself with the following:
 - Serialization
 - XML: eXtensible Markup Language
 - JSON: JavaScript Object Notation
