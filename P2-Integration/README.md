@@ -189,7 +189,7 @@ There are strong ties between REST and HTTP. As such, RESTful web services use t
 
 These methods provide a natural mapping to CRUD operations. So, RESTful web services are naturally suitable for data-oriented use cases, but can also be adapted for service-oriented use cases.
 
-As opposed to XML/SOAP, RESTful web services don't specify a service definition language and leaves it open to service devlopers to describe their API the way they see fit. However, some popular languages have emerged as de-facto standards, such as [RAML](https://raml.org/) (YAML-based) and [OAS - OpenAPI Specification](https://www.openapis.org/).
+As opposed to XML/SOAP, RESTful web services don't specify a service definition language and leaves it open to service devlopers to describe their API the way they see fit. However, some popular languages have emerged as de-facto standards, such as [RAML](https://raml.org/) (YAML-based) and [OAS - OpenAPI Specification](http://spec.openapis.org/oas/v3.1.0).
 
 - [Case Study (Data-oriented / CRUD): RESTful XCommerce Web Service](https://github.com/oiraqi/paradigms/tree/main/P2-Integration/case-studies/rs-xcommerce)
 

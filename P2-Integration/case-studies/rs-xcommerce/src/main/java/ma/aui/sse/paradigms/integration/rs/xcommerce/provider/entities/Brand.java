@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.sse.integration.rs.xcommerce.provider.entities;
+package ma.aui.sse.paradigms.integration.rs.xcommerce.provider.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Category {
+public class Brand {
 
     @Id
     @GeneratedValue
