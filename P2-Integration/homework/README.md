@@ -10,5 +10,5 @@ Based on the background acquired in Part I, *design* and *develop* a suitable so
 
 ## Deliverables
 One zip file containing:
-1. Design document (Plain English) - 50%
-2. Source code (Java) - 50%
+1. Design document (Plain English): **50%**
+2. Source code (Your favorite programming language): **50%**
