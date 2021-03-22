@@ -10,5 +10,5 @@ Based on the background acquired in P1, *design* and *develop* a suitable soluti
 
 ## Deliverables
 One zip file containing:
-1. Design document (Plain English): **50%**
-2. Source code (Your favorite programming language): **50%**
+1. Design document (in plain English): **50%**
+2. Source code (in your favorite programming language): **50%**
