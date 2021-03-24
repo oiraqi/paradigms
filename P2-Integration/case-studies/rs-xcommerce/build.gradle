@@ -19,7 +19,6 @@ dependencies {
 
 	implementation 'javax.validation:validation-api:2.0.1.Final'
 	runtime 'com.h2database:h2'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 test {
