@@ -4,6 +4,7 @@ We would like to take control of a remote system, *asynchronously*. More specifi
 1. Get the name and version of the remote operating system, *asynchronously*
 2. Take screenshots of the remote system, *asynchronously*
 3. Reboot the remote system, *asynchronously*
+
 Based on the background acquired in P3, and the same provider developed in Homework 2, develop a JabaScript *Promise-based* asynchronous consumer.
 
 ## Deliverables
