@@ -10,5 +10,5 @@ Based on the background acquired in P2, design and develop a suitable solution f
 One zip file containing:
 1. Technology enablers, with an overview/concise description of each: **20%**
 2. Development approach: **10%**
-2. Design document: **20%**
-3. Source code, using TWO (2) different languages of your choice - one language on each side: **50%**
+3. Design document: **20%**
+4. Source code, using TWO (2) different languages of your choice - one language on each side: **50%**
