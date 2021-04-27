@@ -6,20 +6,21 @@ We would like to take control of a remote system, *asynchronously*. More specifi
 3. Reboot the remote system, *asynchronously*
 
 ## Part I
-Based on the background acquired in P3, and the same *XML/SOAP* provider developed in Homework 2, develop a JavaScript *Promise-based* asynchronous consumer.
+Develop (or resubmit from homework 2) the *XML/SOAP* provider. Also develop the corresponding JavaScript *Promise-based* asynchronous consumer.
 
-### Deliverables (40%)
+### Deliverables (50%)
 One zip file containing:
 1. Technology enablers: **25%**
 2. Development approach: **25%**
-3. Consumer source code, using JavaScript language: **50%**
+3. Provider source code: **20%**
+4. Consumer source code, using JavaScript language: **30%**
 
 ## Part II
-Develop a *Restful Spring-based* version of your provider and a JavaScript *Promise-based* asynchronous consumer
+Develop (or resubmit from homework 2) the *Restful Spring-based* provider. Also develop the corresponding JavaScript *Promise-based* asynchronous consumer.
 
-### Deliverables (60%)
+### Deliverables (50%)
 One zip file containing:
 1. Technology enablers: **25%**
 2. Development approach: **25%**
-3. Provider source code, using Java language and Spring Boot: **25%**
-4. Consumer source code, using JavaScript language: **25%**
+3. Provider source code, using Java language and Spring Boot: **20%**
+4. Consumer source code, using JavaScript language: **30%**
