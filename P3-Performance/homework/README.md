@@ -13,7 +13,7 @@ One zip file containing:
 1. Technology enablers: **25%**
 2. Development approach: **25%**
 3. Provider source code: **20%**
-4. Consumer source code, using JavaScript language: **30%**
+4. Consumer source code: **30%**
 
 ## Part II
 Develop (or resubmit from homework 2) the *Restful Spring-based* provider. Also develop the corresponding JavaScript *Promise-based* asynchronous consumer.
@@ -22,5 +22,5 @@ Develop (or resubmit from homework 2) the *Restful Spring-based* provider. Also 
 One zip file containing:
 1. Technology enablers: **25%**
 2. Development approach: **25%**
-3. Provider source code, using Java language and Spring Boot: **20%**
-4. Consumer source code, using JavaScript language: **30%**
+3. Provider source code: **20%**
+4. Consumer source code: **30%**
