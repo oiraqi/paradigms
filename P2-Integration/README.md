@@ -1,5 +1,5 @@
 # Integration: Service Oriented Model and Programming
-## Table of Cotents
+## Table of Contents
 - [Problem](#problem)
 - [Objective](#objective)
 - [Examples](#examples)
