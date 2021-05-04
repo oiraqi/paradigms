@@ -4,7 +4,7 @@
 - The Observer Design Pattern
 - From The Observer Design Pattern To Reactive Extensions (Rx)
 - RxJS
-  - RxJS Main Artificats
+  - RxJS Artificats
     - Observable
     - Observer
     - Subscription
