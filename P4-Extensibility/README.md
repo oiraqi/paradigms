@@ -10,7 +10,8 @@
     - Subscription
     - Subscriber
     - Subject
-  - Observable Execution Canceling
-  - Observable Pipelining
-  - Operators
+  - RxJS Features
+    - Execution Canceling
+    - Pipelining
+    - Operators
 - From Promise-based Asynchrony To Rx-based Asynchrony
