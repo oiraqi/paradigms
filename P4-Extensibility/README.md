@@ -15,3 +15,5 @@
     - Pipelining
     - Operators
 - From Promise-based Asynchrony To Rx-based Asynchrony
+  - The Downside of Promises
+  - Rx Observables To The Rescue
