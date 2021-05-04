@@ -13,4 +13,4 @@
   - Observable Execution Canceling
   - Observable Pipelining
   - Operators
-- From Promise-based asynchrony to Rx-based asynchrony
+- From Promise-based Asynchrony To Rx-based Asynchrony
