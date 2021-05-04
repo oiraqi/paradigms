@@ -3,7 +3,9 @@
 - The Windows Case Study
 - The Observer Design Pattern
 - From The Observer Design Pattern To Reactive Extensions (Rx)
-  - Observable Evolution: From hot to cold
+  - Observable Evolution
+    - From shared context to dedicated context
+    - From hot to cold
   - Observer Evolution: +error, +complete
 - RxJS
   - RxJS Artificats
