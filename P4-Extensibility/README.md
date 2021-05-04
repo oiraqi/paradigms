@@ -10,7 +10,7 @@
     - Subscription
     - Subscriber
     - Subject
-  - Unsubscribing / Canceling
-  - Pipelining
+  - Observable Execution Canceling
+  - Observable Pipelining
   - Operators
 - From Promise-based asynchrony to Rx-based asynchrony
