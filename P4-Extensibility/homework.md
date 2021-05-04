@@ -4,7 +4,7 @@ Reusing the RESTful service developed in [Homework 3](../P3-Performance/homework
 
 More specifically, the end user shall be able to:
 - input *n* in a text field
-- click a button to start receiving remote screen update each *n* seconds
+- click a button to start receiving remote screen updates each *n* seconds
 - click the same button, whose caption should have changed from *start* to *stop*, to stop receiving remote screen updates
 
 ### Deliverables
