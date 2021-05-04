@@ -4,3 +4,12 @@
 - The Observer Design Pattern
 - From The Observer Design Pattern To Reactive Extensions (Rx)
 - RxJS
+  - RxJS Main Artificats
+    - Observable
+    - Observer
+    - Subscription
+    - Subscriber
+    - Subject
+  - Pipelining
+  - Operators
+- From Promise-based asynchrony to Rx-based asynchrony
