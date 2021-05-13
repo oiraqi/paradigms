@@ -19,8 +19,18 @@
         - Actions
   - Architecture
     - Cluster manager
+      - Spark Standalone
+      - Mesos
+      - YARN
+      - Kubernetes
     - Driver program
     - Worker nodes
     - Executors
     - Tasks
+  - Installation (Spark Standalone)
+  - Deployment (Manual)
+    - ./sbin/start-master.sh
+    - ./sbin/start-worker.sh
+  - Application Deployment
+    - ./bin/spark-submit.sh
 - Case Study: Ecommerce Product Rating
