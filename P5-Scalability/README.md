@@ -1,0 +1,26 @@
+# Scalability: Distributed and Parallelized Programming
+## Table of Contents
+- Context
+  - Big Data
+  - High Performance Computing (HPC)
+- The Need for Scalability
+  - Scale up: Vertical scalability / Hardware-based scalability
+  - Scale out: Horizontal scalability / Software-based scalability
+- Parallelization and Cluster Computing
+  - A motivating example
+  - Map and Reduce parallelized operations
+- Spark
+  - Services
+    - Resource management
+    - Distributed processing
+      - Resilient Distributed Datasets (RDDs)
+      - Operations
+        - Transformartions
+        - Actions
+  - Architecture
+    - Cluster manager
+    - Driver program
+    - Worker nodes
+    - Executors
+    - Tasks
+- Case Study: Ecommerce Product Rating
