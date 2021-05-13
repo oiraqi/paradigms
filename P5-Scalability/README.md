@@ -18,9 +18,6 @@
         - Transformations
         - Actions
   - Architecture
-    <p align="center">
-        <img src="https://spark.apache.org/docs/latest/img/cluster-overview.png"/>
-    </p>
     - Cluster manager
       - Spark Standalone
       - Mesos
@@ -31,6 +28,9 @@
     - Worker nodes
     - Executors
     - Tasks
+    <p align="center">
+        <img src="https://spark.apache.org/docs/latest/img/cluster-overview.png"/>
+    </p>
   - Installation (Spark Standalone)
   - Deployment (Manual)
     - ./sbin/start-master.sh
