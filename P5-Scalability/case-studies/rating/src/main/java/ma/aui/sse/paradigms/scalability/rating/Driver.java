@@ -9,12 +9,9 @@ import org.apache.spark.SparkConf;
 
 import java.util.List;
 
-public class App {
+public class Driver {
 
     private static String MASTER_URL = "spark://10.10.10.10:7070";
-    public String getGreeting() {
-        return "Hello world.";
-    }
 
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setAppName("Rating").setMaster(MASTER_URL);
