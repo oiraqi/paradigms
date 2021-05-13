@@ -38,4 +38,4 @@
     - ./sbin/start-worker.sh
   - Application Deployment
     - ./bin/spark-submit.sh
-- Case Study: Ecommerce Product Rating
+- [Case Study: Ecommerce Product Rating](./case-studies/rating)
