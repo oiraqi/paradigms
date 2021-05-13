@@ -9,7 +9,7 @@
 - Parallelization and Cluster Computing
   - A motivating example
   - Map and Reduce parallelized operations
-- Spark
+- [Spark](https://spark.apache.org/docs/latest/index.html)
   - Services
     - Resource management
     - Distributed processing
