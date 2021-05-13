@@ -24,9 +24,9 @@
   - Components
     - Cluster manager
       - Spark Standalone
-      - Mesos
-      - YARN
-      - Kubernetes
+      - [Mesos](http://mesos.apache.org)
+      - [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
+      - [Kubernetes](https://kubernetes.io)
     - Driver program
       - SparkContext
     - Worker nodes
