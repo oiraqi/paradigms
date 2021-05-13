@@ -4,7 +4,7 @@ This course provides theoritical knowledge about, and practical skills in advanc
 - [**P2. Programming for integration:** Service-oriented model and programming](https://github.com/oiraqi/paradigms/tree/main/P2-Integration)
 - [**P3. Programming for performance:** Multithreaded and asynchronous programming](https://github.com/oiraqi/paradigms/tree/main/P3-Performance)
 - [**P4. Programming for extensibility:** Functional and reactive programming](https://github.com/oiraqi/paradigms/tree/main/P4-Extensibility)
-- **P5. Programming for scalability:** Distributed and parallelized programming
+- [**P5. Programming for scalability:** Distributed and parallelized programming](https://github.com/oiraqi/paradigms/tree/main/P5-Scalability)
 
 This course adopts the 3 most popular programming languages: JavaScript, Python and Java. It uses each time the most suitable language(s) to support and illustrate the concepts covered in each part.
 
