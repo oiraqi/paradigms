@@ -24,6 +24,7 @@
       - YARN
       - Kubernetes
     - Driver program
+      - SparkContext
     - Worker nodes
     - Executors
     - Tasks
