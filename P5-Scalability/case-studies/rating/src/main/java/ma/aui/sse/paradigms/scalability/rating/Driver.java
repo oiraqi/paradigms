@@ -12,9 +12,10 @@ import java.util.List;
 public class Driver {
 
     private static final String MASTER_URL = "spark://10.10.10.10:7070";
+    private static final String APP_NAME = "Rating";
 
     public static void main(String[] args) {
-        SparkConf conf = new SparkConf().setAppName("Rating").setMaster(MASTER_URL);
+        SparkConf conf = new SparkConf().setAppName(APP_NAME).setMaster(MASTER_URL);
         JavaSparkContext sc = new JavaSparkContext(conf);
 
         List<Rating> ratings = null; // To do
