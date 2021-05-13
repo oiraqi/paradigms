@@ -18,16 +18,6 @@
         - Transformations
         - Actions
   - Architecture
-    - Cluster manager
-      - Spark Standalone
-      - Mesos
-      - YARN
-      - Kubernetes
-    - Driver program
-      - SparkContext
-    - Worker nodes
-    - Executors
-    - Tasks
     <p align="center">
         <img src="https://spark.apache.org/docs/latest/img/cluster-overview.png"/>
     </p>
