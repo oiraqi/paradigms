@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Driver {
 
-    private static String MASTER_URL = "spark://10.10.10.10:7070";
+    private static final String MASTER_URL = "spark://10.10.10.10:7070";
 
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setAppName("Rating").setMaster(MASTER_URL);
