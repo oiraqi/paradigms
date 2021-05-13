@@ -15,7 +15,7 @@
     - Distributed processing
       - Resilient Distributed Datasets (RDDs)
       - Operations
-        - Transformartions
+        - Transformations
         - Actions
   - Architecture
     - Cluster manager
