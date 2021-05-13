@@ -17,11 +17,7 @@
       - Operations
         - Transformations
         - Actions
-  - Architecture
-    <p align="center">
-        <img src="https://spark.apache.org/docs/latest/img/cluster-overview.png"/>
-    </p>
-  - Components
+  - [Architecture](https://spark.apache.org/docs/latest/cluster-overview.html)
     - Cluster manager
       - Spark Standalone
       - [Mesos](http://mesos.apache.org)
