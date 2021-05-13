@@ -1,4 +1,4 @@
-package ma.aui.sse.paradigms.parallelization.rating;
+package ma.aui.sse.paradigms.scalability.rating;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
