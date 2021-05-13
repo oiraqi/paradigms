@@ -31,6 +31,17 @@
     <p align="center">
         <img src="https://spark.apache.org/docs/latest/img/cluster-overview.png"/>
     </p>
+  - Components
+    - Cluster manager
+      - Spark Standalone
+      - Mesos
+      - YARN
+      - Kubernetes
+    - Driver program
+      - SparkContext
+    - Worker nodes
+    - Executors
+    - Tasks
   - Installation (Spark Standalone)
   - Deployment (Manual)
     - ./sbin/start-master.sh
