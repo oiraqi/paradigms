@@ -4,9 +4,14 @@
 package ma.aui.sse.paradigms.scalability.rating;
 
 import org.apache.spark.api.java.JavaSparkContext;
+
+import scala.Tuple2;
+
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.SparkConf;
 
+import java.util.Iterator;
 import java.util.List;
 
 public class Driver {
@@ -21,6 +26,28 @@ public class Driver {
         List<Rating> ratings = null; // To do
 
         JavaRDD<Rating> ratingRDD = sc.parallelize(ratings);
+
+        JavaPairRDD<String, Integer> indexedRatingRDD = ratingRDD.mapToPair(rating ->
+            new Tuple2<>(rating.getProductId(), rating.getStars())
+        );
+
+        JavaPairRDD<String, Integer> ratingSumByProductRDD = 
+            indexedRatingRDD.reduceByKey((a, b) -> a + b);
+
+        JavaPairRDD<String, Integer> ratingCountByProductRDD = 
+            indexedRatingRDD.mapToPair(indexedRating -> new Tuple2<>(indexedRating._1, 1)).reduceByKey((a, b) -> a + b);
+
+        JavaPairRDD<String, Tuple2<Integer, Integer>> ratingSumAndCountByProductRDD = ratingSumByProductRDD.join(ratingCountByProductRDD);
+        
+        JavaPairRDD<String, Double> averageRatingByProductRDD = ratingSumAndCountByProductRDD.mapToPair(sumAndCountByProduct -> new Tuple2<>(sumAndCountByProduct._1, (double)sumAndCountByProduct._2._1 / sumAndCountByProduct._2._2));
+        
+        List<Tuple2<String, Double>> averageRatingsByProduct = averageRatingByProductRDD.collect();
+
+        Iterator<Tuple2<String, Double>> it = averageRatingsByProduct.iterator();
+        
+        while(it.hasNext()) {
+            System.out.println(it.next()._1 + " : " + it.next()._2);
+        }
 
     }
 }
