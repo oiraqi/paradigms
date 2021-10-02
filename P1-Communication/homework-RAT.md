@@ -1,4 +1,4 @@
-# Homework 1 -- RAT
+# Homework 1 - RAT
 
 ## Description
 We would like to develop a RAT (Remote Access Tool) that takes control of a remote system. More specifically, we would like to be able to:
