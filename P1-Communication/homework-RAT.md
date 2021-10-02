@@ -1,7 +1,7 @@
-# Homework 1
+# Homework 1 -- RAT
 
 ## Description
-We would like to take control of a remote system. More specifically, we would like to be able to:
+We would like to develop a RAT (Remote Access Tool) that takes control of a remote system. More specifically, we would like to be able to:
 1. Get the name and version of the remote operating system
 2. Take screenshots of the remote system
 3. Reboot the remote system
