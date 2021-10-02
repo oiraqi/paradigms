@@ -1,4 +1,4 @@
-# Homework 1 -- xFx
+# Homework 1 - xFx
 
 ## Description
 We would like to extend the Fx App. The resulting App will be called xFx (short for extended Fx).
