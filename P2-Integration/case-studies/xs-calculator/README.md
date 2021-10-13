@@ -11,7 +11,7 @@
 - Write the calculator service business implementation: ma.aui.sse.paradigms.integration.xs.calculator.provider.Calculator
 - Mark it as an XML/SOAP web service through the JAX-WS @WebService annotation
 - Write Result data transfer object (DTO): ma.aui.sse.paradigms.integration.xs.calculator.provider.Result
-- Write the Provider main class that creates an instance of the calculator business implementation and publishes it as a web service under `http://localhost:9000/calculator` using JAX-WS Endpoint class: ma.aui.sse.paradigms.integration.xs.provider.Provoder
+- Write the Provider main class that creates an instance of the calculator business implementation and publishes it as a web service under `http://localhost:9000/calculator` using JAX-WS Endpoint class: ma.aui.sse.paradigms.integration.xs.provider.Provider
 
 ### Generate WSDL and Java server stub code
 - Build the code:
