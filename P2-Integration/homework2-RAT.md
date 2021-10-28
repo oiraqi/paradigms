@@ -1,4 +1,4 @@
-# Homework 2
+# Homework 2 - RAT
 ## Description
 We would like to take control of a remote system. More specifically, we would like to be able to:
 1. Get the name and version of the remote operating system
