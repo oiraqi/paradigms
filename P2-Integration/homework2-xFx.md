@@ -1,6 +1,6 @@
 # Homework 2 - xFx
 ## Description
-We would like to take control of a remote system. More specifically, we would like to be able to:
+We would like to take control of a shared folder under a remote system. More specifically, we would like to be able to:
 1. Browse the remote shared folder, including its sub-folders
 2. Rename a remote shared file or sub-folder
 3. Download a remote shared file
