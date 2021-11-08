@@ -1,4 +1,4 @@
-# Homework 3
+# Homework 3 - RAT
 ## Description
 We would like to take control of a remote system, *asynchronously*. More specifically, we would like to be able to:
 1. Get the name and version of the remote operating system, *asynchronously*
