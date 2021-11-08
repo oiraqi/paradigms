@@ -16,12 +16,12 @@ public class FileSystem extends Observable<Notification> {
             throw new IllegalArgumentException(node.getPath());
         }
         nodes.put(node.getPath(), node.getType());
-        broadcast(new Notification(node, CREATE));
+        notify(new Notification(node, CREATE));
     }
 
     public void delete(Node node) {
         nodes.remove(node.getPath());
-        broadcast(new Notification(node, DELETE));
+        notify(new Notification(node, DELETE));
     }
 
 }

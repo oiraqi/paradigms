@@ -46,7 +46,7 @@ public class Window implements Observer<Notification> {
         this.currentPath = currentPath;
     }
 
-    public void notify(Notification notification) {
+    public void update(Notification notification) {
         if (amIConcerned(notification)) {
             System.out.println("From " + name + " : " + notification.getNode().getType() + " " + notification.getNode().getPath() + ": " + notification.getOperation()); 
         }

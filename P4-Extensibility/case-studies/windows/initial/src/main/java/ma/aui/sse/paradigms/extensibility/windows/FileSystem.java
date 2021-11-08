@@ -25,18 +25,18 @@ public class FileSystem {
             throw new IllegalArgumentException(node.getPath());
         }
         nodes.put(node.getPath(), node.getType());
-        broadcast(new Notification(node, CREATE));
+        notify(new Notification(node, CREATE));
     }
 
     public void delete(Node node) {
         nodes.remove(node.getPath());
-        broadcast(new Notification(node, DELETE));
+        notify(new Notification(node, DELETE));
     }
 
-    private void broadcast(Notification notification) {
+    private void notify(Notification notification) {
         Iterator<Window> it = windows.iterator();
         while (it.hasNext()) {
-            it.next().notify(notification);
+            it.next().update(notification);
         }
     }
 }

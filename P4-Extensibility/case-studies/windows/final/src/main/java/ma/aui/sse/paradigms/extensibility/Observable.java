@@ -15,10 +15,10 @@ public class Observable<T> {
         observers.remove(observer);
     }
 
-    protected final void broadcast(T notification) {
+    protected final void notify(T notification) {
         Iterator<Observer<T>> it = observers.iterator();
         while (it.hasNext()) {
-            it.next().notify(notification);
+            it.next().update(notification);
         }
     }
 }
