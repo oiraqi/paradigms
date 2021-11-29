@@ -16,5 +16,5 @@ One zip file containing:
 3. JavaScript code: **40%**
 4. HTML code: **10%**
 
-You may want to use [Rx-Http-Request](https://www.npmjs.com/package/@akanass/rx-http-request)
-You may also want to use *interval* operator to give the tempo
+- You may want to use [Rx-Http-Request](https://www.npmjs.com/package/@akanass/rx-http-request)
+- You may also want to use *interval* operator to give the tempo
