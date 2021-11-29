@@ -1,4 +1,4 @@
-# Homework 4
+# Homework 4 - RAT
 ## Description
 Reusing the RESTful service developed in [Homework 3](../P3-Performance/homework.md), and *based on the background acquired in Part 4*, develop a Browser-based HTML/JavaScript client that displays the screen of the remote system, each *n* seconds, *n* being an input parameter.
 
