@@ -1,4 +1,4 @@
-# Homework 5
+# Homework 5 - v1
 ## Description
 As an extension of the Product Rating case study, and still *using parallelized computing*, we would like to determine:
 - The weakly-rated products. A product is considered weakly rated if its average rating score is strictly less than 3.
