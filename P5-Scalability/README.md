@@ -19,7 +19,7 @@
         - Actions
   - [Architecture](https://spark.apache.org/docs/latest/cluster-overview.html)
     - Cluster manager
-      - Spark Standalone
+      - [Spark Standalone](https://spark.apache.org/docs/latest/spark-standalone.html)
       - [Mesos](http://mesos.apache.org)
       - [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
       - [Kubernetes](https://kubernetes.io)
@@ -33,5 +33,5 @@
     - ./sbin/start-master.sh
     - ./sbin/start-worker.sh
   - Application Deployment
-    - ./bin/spark-submit.sh
+    - [./bin/spark-submit.sh](https://spark.apache.org/docs/latest/submitting-applications.html)
 - [Case Study: Ecommerce Product Rating](./case-studies/rating)
