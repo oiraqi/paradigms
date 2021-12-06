@@ -13,7 +13,7 @@
   - Hadoop Ecosystem
     - [YARN](https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html)
     - [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
-    - MapReduce(https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
+    - [MapReduce](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
   - Hadoop Limitations (mainly HDFS-based, disk-driven computations)
 - [Spark](https://spark.apache.org/docs/latest/index.html)
   - Services
