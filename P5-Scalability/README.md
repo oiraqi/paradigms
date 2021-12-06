@@ -13,10 +13,8 @@
   - Services
     - Resource management
     - Distributed processing
-      - Resilient Distributed Datasets (RDDs)
-      - Operations
-        - Transformations
-        - Actions
+      - [Resilient Distributed Datasets (RDDs)](https://spark.apache.org/docs/latest/rdd-programming-guide.html#resilient-distributed-datasets-rdds)
+      - Operations: [Transformations](https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations) & [Actions](https://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)
   - [Architecture](https://spark.apache.org/docs/latest/cluster-overview.html)
     - Cluster manager
       - [Spark Standalone](https://spark.apache.org/docs/latest/spark-standalone.html)
@@ -42,3 +40,4 @@
     - Producers
     - Consumers (Batch mode vs. Stream mode)
     - [Consumer Groups](./figures/Kafka-Cluster-Consumer-Group.png)
+  - [API](https://kafka.apache.org/10/javadoc/overview-summary.html)
