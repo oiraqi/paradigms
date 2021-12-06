@@ -9,6 +9,10 @@
 - Parallelization and Cluster Computing
   - A motivating example
   - Map and Reduce parallelized operations
+- Big Bang, then Sun, then Earth, then Life, then Homo Sapiens, then Electricity, then Internet, then Hadoop
+  - YARN
+  - HDFS
+  - MapReduce 
 - [Spark](https://spark.apache.org/docs/latest/index.html)
   - Services
     - Resource management
