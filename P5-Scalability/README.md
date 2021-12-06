@@ -18,10 +18,8 @@
         - Transformations
         - Actions
   - [Architecture](https://spark.apache.org/docs/latest/cluster-overview.html)
-    - [Figure](./figures/Spark-Architecture.png)
     - Cluster manager
       - [Spark Standalone](https://spark.apache.org/docs/latest/spark-standalone.html)
-      - [Mesos](http://mesos.apache.org)
       - [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
       - [Kubernetes](https://kubernetes.io)
     - Driver program
@@ -29,10 +27,18 @@
     - Worker nodes
     - Executors
     - Tasks
+  - [Case Study: Ecommerce Product Rating](./case-studies/rating)
   - Installation (Spark Standalone)
   - Deployment (Manual)
     - ./sbin/start-master.sh
     - ./sbin/start-worker.sh
   - Application Deployment
     - [./bin/spark-submit.sh](https://spark.apache.org/docs/latest/submitting-applications.html)
-- [Case Study: Ecommerce Product Rating](./case-studies/rating)
+- [Kafka](https://kafka.apache.org/)
+  - [Architecture](./figures/Kafka-Cluster.png)
+    - Server / Broker
+    - Cluster
+    - Topics and Partitions
+    - Producers
+    - Consumers (Batch mode vs. Stream mode)
+    - [Consumer Groups](./figures/Kafka-Cluster-Consumer-Group.png)
