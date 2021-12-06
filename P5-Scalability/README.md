@@ -25,6 +25,7 @@
     - Worker nodes
     - Executors
     - Tasks
+  - [Java API](https://spark.apache.org/docs/latest/api/java/org/apache/spark/api/java/package-summary.html)
   - [Case Study: Ecommerce Product Rating](./case-studies/rating)
   - Installation (Spark Standalone)
   - Deployment (Manual)
@@ -40,4 +41,4 @@
     - Producers
     - Consumers (Batch mode vs. Stream mode)
     - [Consumer Groups](./figures/Kafka-Cluster-Consumer-Group.png)
-  - [API](https://kafka.apache.org/10/javadoc/overview-summary.html)
+  - [Java API](https://kafka.apache.org/10/javadoc/overview-summary.html)
