@@ -1,5 +1,5 @@
 # Programming Paradigms
-This course provides theoritical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses (including OOP) and other computer science courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
+This course provides theoretical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses (including OOP) and other computer science courses (OS, Computer Communication, Database Systems), to tackle programming models used in professional, enterprise-grade software development. Covered topics are organized in five parts, where each builds on previous ones:
 - [**P1. Programming for communication:** Client/server model and programming](https://github.com/oiraqi/paradigms/tree/main/P1-Communication)
 - [**P2. Programming for integration:** Service-oriented model and programming](https://github.com/oiraqi/paradigms/tree/main/P2-Integration)
 - [**P3. Programming for performance:** Multithreaded and asynchronous programming](https://github.com/oiraqi/paradigms/tree/main/P3-Performance)
