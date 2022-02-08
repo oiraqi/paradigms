@@ -1,7 +1,7 @@
 # Homework 1 - Cloud Drive
 
 ## Description
-Inspired from Google Drive (GDrive), we would like to design and develop a Cloud Drive that allows the user to have his/her filese automatically backed up on the cloud, and synchronized across several devices.
+Inspired from Google Drive (GDrive), we would like to design and develop a Cloud Drive that allows the user to have his/her files automatically backed up on the cloud, and synchronized across several devices.
 
 Based on the background acquired in P1, *design* and *develop* a suitable solution for this problem.
 
