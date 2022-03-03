@@ -17,7 +17,7 @@
 - Build the code:
   - **./gradlew build**
 - Generate the CalculatorService WSDL, as well as skeleton code, from ma.aui.sse.paradigms.integration.xs.provider.Calculator class:
-  - **wsgen -wsdl -cp build/classes/java/main/ -d build/classes/java/main/ -r src/main/resources/ ma.aui.sse.paradigms.integration.xs.provider.Calculator**
+  - **wsgen -wsdl -cp build/classes/java/main/ -d build/classes/java/main/ -r src/main/resources/ ma.aui.sse.paradigms.integration.xs.calculator.provider.Calculator**
 - Change the service location url within the generated src/main/resources/CalculatorService.wsdl (<soap:address location="REPLACE_WITH_ACTUAL_URL"/>) to: `http://localhost:9000/calculator`
 
 ### Run the Java provider
@@ -39,8 +39,8 @@
 
 ### Develop the Java consumer
 - Generate the Java stub code from CalculatorService.wsdl:
-  - **wsimport -p ma.aui.sse.paradigms.integration.xs.consumer.stub -d build/classes/java/main/ src/main/resources/CalculatorService.wsdl**
-- Write the Java consumer: ma.aui.sse.paradigms.integration.xs.consumer.Consumer.java
+  - **wsimport -p ma.aui.sse.paradigms.integration.xs.clalculator.consumer.stub -d build/classes/java/main/ src/main/resources/CalculatorService.wsdl**
+- Write the Java consumer: ma.aui.sse.paradigms.integration.xs.calculator.consumer.Consumer.java
 - Rebuild the code:
   - **./gradlew build**
 
