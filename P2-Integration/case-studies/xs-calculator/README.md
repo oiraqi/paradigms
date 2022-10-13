@@ -1,7 +1,7 @@
 # Case Study: XML/SOAP Calculator Web Service
 
 ## Technolgies
-- Service definition language: WSDL
+- Web Service definition language: WSDL
 - Protocol: SOAP over HTTP
 - Provider programming language: Java (JAX-WS API)
 - Consumer programming languages: Java, Python (Zeep module), JavaScript (Soap module)
