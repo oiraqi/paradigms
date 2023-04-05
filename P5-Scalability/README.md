@@ -4,7 +4,7 @@
   - Big Data
   - High Performance Computing (HPC)
 - The Need for Scalability
-  - Scale up: vertical/hardware-based scalability
+  - Scale in: vertical/hardware-based scalability
   - Scale out: horizontal/software-based scalability
 - Parallelization and Cluster Computing
   - A motivating example
