@@ -46,7 +46,7 @@
   - Examples
   - Limitations of the direct interaction/coupling between stream producers and consumers
   - Brokered interaction between stream producers and consumers
-- [Kafka](https://kafka.apache.org/) - The de facto distributed streaming platform
+- [Kafka](https://kafka.apache.org/) - The De Facto Distributed Streaming Platform
   - [Architecture](./figures/Kafka-Cluster.png)
     - Server / Broker
     - Cluster
