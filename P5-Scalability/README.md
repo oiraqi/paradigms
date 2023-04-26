@@ -44,10 +44,10 @@
   - What are events? "What happened happened!"
   - State-oriented systems vs. event-driven systems
   - Examples
-  - Direct interaction/coupling between stream producers and consumers
+  - Direct interaction / tight coupling between stream producers and consumers
     <p align="center"><img src="./figures/streams-direct.drawio.png"/><p>
     <p align="center"><img src="./figures/streams-direct-spaghetti.png"/><p>
-  - Brokered interaction between stream producers and consumers
+  - Brokered interaction / loose coupling between stream producers and consumers
     <p align="center"><img src="./figures/streams-brokered.png"/><p>
 - [Kafka](https://kafka.apache.org/) - The De Facto Distributed Streaming Platform
   - [Architecture](./figures/Kafka-Cluster.png)
