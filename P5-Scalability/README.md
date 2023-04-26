@@ -49,7 +49,8 @@
     <p align="center"><img src="./figures/streams-direct-spaghetti.png"/><p>
   - Brokered interaction / loose coupling between stream producers and consumers
     <p align="center"><img src="./figures/streams-brokered.png"/><p>
-- [Kafka](https://kafka.apache.org/) - The De Facto Distributed Streaming Platform
+- [Kafka](https://kafka.apache.org/) - The De Facto Distributed ;Event Store and Stream Processing Platform
+  - "Kafka was originally developed at LinkedIn, and was subsequently open sourced in early 2011. Jay Kreps, Neha Narkhede and Jun Rao helped co-create Kafka.[4] Graduation from the Apache Incubator occurred on 23 October 2012.[5] Jay Kreps chose to name the software after the author Franz Kafka because it is "a system optimized for writing", and he liked Kafka's work." - [Wikipedia](https://en.wikipedia.org/wiki/Apache_Kafka).
   - "Franz Kafka (1883 - 1924) was a German-speaking Bohemian novelist and short-story writer based in Prague, who is widely regarded as one of the major figures of 20th-century literature." - [Wikipedia](https://en.wikipedia.org/wiki/Franz_Kafka).
       <p align="center"><img src="figures/Franz_Kafka.jpg" width="30%"/></p>
   - [Architecture](./figures/Kafka-Cluster.png)
