@@ -39,6 +39,13 @@
     - ./sbin/start-worker.sh
   - Application Deployment
     - [./bin/spark-submit.sh](https://spark.apache.org/docs/latest/submitting-applications.html)
+- Streams
+  - What is a stream?
+  - What are events? "What happened happened!"
+  - State-oriented systems vs. event-driven systems
+  - Examples
+  - Limitations of the direct interaction/coupling between stream producers and consumers
+  - Brokered interaction between stream producers and consumers
 - [Kafka](https://kafka.apache.org/)
   - [Architecture](./figures/Kafka-Cluster.png)
     - Server / Broker
