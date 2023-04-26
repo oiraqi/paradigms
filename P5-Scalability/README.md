@@ -48,6 +48,7 @@
     <p align="center"><img src="./figures/streams-direct.drawio.png"/><p>
     <p align="center"><img src="./figures/streams-direct-spaghetti.png"/><p>
   - Brokered interaction between stream producers and consumers
+    <p align="center"><img src="./figures/streams-brokered.png"/><p>
 - [Kafka](https://kafka.apache.org/) - The De Facto Distributed Streaming Platform
   - [Architecture](./figures/Kafka-Cluster.png)
     - Server / Broker
