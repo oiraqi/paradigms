@@ -51,7 +51,7 @@
     <p align="center"><img src="./figures/streams-brokered.png"/><p>
 - [Kafka](https://kafka.apache.org/) - The De Facto Distributed Streaming Platform
   - "Franz Kafka (1883 - 1924) was a German-speaking Bohemian novelist and short-story writer based in Prague, who is widely regarded as one of the major figures of 20th-century literature." - [Wikipedia](https://en.wikipedia.org/wiki/Franz_Kafka).
-      <p align="center"><img serc="gigures/Franz_Kafka.jpg"/></p>
+      <p align="center"><img src="figures/Franz_Kafka.jpg" width="30%"/></p>
   - [Architecture](./figures/Kafka-Cluster.png)
     - Server / Broker
     - Cluster
