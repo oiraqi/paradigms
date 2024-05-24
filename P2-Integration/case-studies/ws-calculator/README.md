@@ -1,7 +1,7 @@
 # Case Study: OpenAPI Calculator Web Service
 
 ## Disclaimer
-This is not (and not meant to be) a RESTful service, as it doesn't abide by all REST constraints / design principles, mainly HATEOAS.
+This is not (and not meant to be) a RESTful service, as it's not data collections-driven + doesn't abide by all REST constraints/design principles, mainly HATEOAS.
 
 ## Technologies
 - Service definition language: OAS (OpenAPI Specification) 3.0
