@@ -1,4 +1,4 @@
-# Extensibility and Reactivity: Functional and Reactive Programming
+# Extensibility and Reactivity: Reactive Programming
 ## Table of Contents
 - The Windows Case Study
 - The Observer Design Pattern
@@ -8,7 +8,7 @@
     - From hot to cold
   - Observer Evolution: +error, +complete
 - RxJS
-  - RxJS Artificats
+  - RxJS Artifacts
     - Observable
     - Observer
     - Subscription
